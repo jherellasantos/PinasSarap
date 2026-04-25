@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dish-template.css">
+    <title>Igado</title>
+</head>
+<body>
+    <div class="nav">
+        <img src="images/logo.png" alt="PINASSARAP Logo">
+                    <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search dishes...">
+                <button id="searchBtn">Search</button>
+            </div>
+                            <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="category-bar">
+        <a href="sweets.html">Sweets</a>
+        <a href="savory.html">Savory</a>
+        <a href="soup.html">Soup</a>
+        <a href="snacks.html">Snacks</a>
+    </div>
+
+    <ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="luzon.html">Luzon</a></li>
+        <li>Igado</li>
+    </ul>
+
+        <div class="dishpix">
+    <div class="dishpix-slider" id="slider">
+        <img src="https://www.unileverfoodsolutions.com.ph/dam/global-ufs/mcos/sea/philippines/acm/recipe/fm-25-recipes/ilocos-igado/Igado-Header.jpg" alt="Igado">
+        <img src="https://assets.cookaborough.com/public/meals/16f6d0cb-caf1-4fb2-818d-cd503edc5b2f.png" alt="Igado">
+        <img src="https://www.angsarap.net/wp-content/uploads/2022/03/Igado-Ilocano-Wide.jpg" alt="Igado">
+    </div>
+    
+    <div class="dots" id="dots">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+    
+
+    <hr>
+
+    <section id="bexpress">
+        <div class="section-header">
+            <h1>Igado</h1>
+            <div class="sticky-button-container">
+                <a href="#recipe">
+                    <button class="jump-button">Jump to Recipe</button>
+                </a>
+            </div>
+        </div>
+
+        <p>Igado is a traditional dish from the Ilocos Region and is an important part of Ilocano cuisine. It reflects the Filipino practice of resourcefulness, particularly in using different parts of the animal, including pork innards.</p>
+
+        <p>Studies suggest that Igado was influenced by Spanish cuisine, which may be seen in its name. The word “hígado” means liver in Spanish, and it is believed that Filipinos adapted the term into “Igado” over time. 
+</p>
+
+<p>Overall, Igado developed as a regional Filipino dish shaped by local traditions and practical cooking methods, with possible linguistic and cultural influences from Spanish cuisine.
+</p>
+
+    </section>
+
+    <hr>
+
+    <div id="recipe">
+        <h2>Recipe</h2>
+        <h3>Ingredients</h3>
+        <table>
+            <tr>
+                <td>
+                    <h4>Igado</h4>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="igado-pork" name="igado-ingredients" value="pork">
+                            <label for="igado-pork">1/2 lbs. pork tenderloin sliced into 2-inch strips
+</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="igado-liver" name="igado-ingredients" value="liver">
+                            <label for="igado-liver">1/2 lb. pork liver sliced into 2-inch strips
+</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="igado-kidney" name="igado-ingredients" value="kidney">
+                            <label for="igado-kidney">1/2 lb. pork kidney
+
+
+</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="igado-salt" name="igado-ingredients" value="salt">
+                            <label for="igado-salt">1 Knorr Pork Cube
+
+</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="igado-bell-pepper" name="igado-ingredients" value="bell-pepper">
+                            <label for="igado-bell-pepper">1 red bell pepper cut into strips
+
+</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="igado-green-peas" name="igado-ingredients" value="green-peas">
+                            <label for="igado-green-peas"> 1/2 cup green peas
+
+</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="igado-carrot" name="igado-ingredients" value="carrot">
+                            <label for="igado-carrot"> 1 carrot julienne
+
+
+</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="igado-laurel" name="igado-ingredients" value="laurel">
+                            <label for="igado-laurel">3 laurel leaves
+
+
+</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="igado-onion" name="igado-ingredients" value="onion">
+                            <label for="igado-onion">1 onion minced
+
+
+</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="igado-ginger" name="igado-ingredients" value="ginger">
+                            <label for="igado-ginger">5 cloves garlic minced
+
+
+</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="igado-soy-sauce" name="igado-ingredients" value="soy-sauce">
+                            <label for="igado-soy-sauce">6 tablespoons soy sauce
+
+
+</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="igado-vinegar" name="igado-ingredients" value="vinegar">
+                            <label for="igado-vinegar">5 tablespoons white vinegar
+
+
+
+</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="igado-water" name="igado-ingredients" value="water">
+                            <label for="igado-water">1 1/4 cup water
+
+
+
+</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="igado-oil" name="igado-ingredients" value="oil">
+                            <label for="igado-oil">4 tablespoons cooking oil
+
+
+
+</label>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+<div class="instruction-panel">
+    <h3>How to Cook</h3>
+    <ol>
+        <li>
+            <p>Boil the pork kidney with ginger for at least 30 minutes. Let it cool down, then slice into 2-inch strips. Set aside.</p>
+        </li>
+
+        <li>
+            <p>Heat 2 tablespoons of cooking oil in a pan. Sauté the pork liver for 2 minutes. Remove from the pan and set aside.</p>
+        </li>
+
+        <li>
+            <p>Pour the remaining oil into the pan. Once hot, sauté garlic and onion until the onion softens.</p>
+        </li>
+
+        <li>
+            <p>Add the pork kidney. Cook for 1 minute.</p>
+        </li>
+
+        <li>
+            <p>Add the pork tenderloin. Sauté until the outer layer turns light brown.</p>
+        </li>
+
+        <li>
+            <p>Pour in the soy sauce and vinegar. Let it boil, then stir.</p>
+        </li>
+
+        <li>
+            <p>Add the laurel leaves and water. Let boil, then reduce heat to low to medium and simmer for 40 minutes.</p>
+        </li>
+
+        <li>
+            <p>Add the pork cube. Cook for 8 minutes.</p>
+        </li>
+
+        <li>
+            <p>Add the pork liver back into the pan. Stir and cook for 3 minutes.</p>
+        </li>
+
+        <li>
+            <p>Add the bell pepper, carrot, and green peas.</p>
+        </li>
+
+        <li>
+            <p>Season with salt and ground black pepper. Cook for 2 minutes.</p>
+        </li>
+
+        <li>
+            <p>Transfer to a serving bowl. Serve hot with rice.</p>
+        </li>
+    </ol>
+</div>
+
+    <hr>
+
+    <div class="video-section">
+        <h2>Video Tutorial</h2>
+        <p>Watch this step-by-step video guide on how to prepare authentic Igado:</p>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2U4u5ALiMfA?si=rKJCPeqPS9CsH-DD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+    </div>
+
+    
+        <button id="backToTop" class="back-to-top" aria-label="Back to top">&uarr;</button>
+    <script src="search.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const slider = document.getElementById('slider');
+            const dots = document.querySelectorAll('#dots span');
+
+            slider.addEventListener('scroll', () => {
+                const scrollPosition = slider.scrollLeft;
+                const width = slider.clientWidth;
+
+                const index = Math.round(scrollPosition / width);
+
+                dots.forEach(dot => dot.classList.remove('active'));
+                if (dots[index]) {
+                    dots[index].classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

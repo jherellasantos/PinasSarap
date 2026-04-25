@@ -1,0 +1,142 @@
+
+body {
+    position: relative;
+    min-height: 100vh;
+    background-color: rgb(255, 247, 238);
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    width: 100%;;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    pointer-events: none;
+    z-index: -2;
+}
+
+.nav {
+    margin-bottom: 0; /* Adjust if needed */
+}
+
+.video-container {
+    margin-bottom: 40px;
+}
+
+.flex-2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    max-width: 1300px;
+    margin: 0 auto 40px;
+}
+
+.flex-2 section {
+    flex: 1;
+    min-width: 300px;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-2 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.cultural-overview h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cultural-overview p {
+    line-height: 1.6;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+h1 {
+    text-align: center;
+    margin: 40px 0 20px;
+    font-size: 50px;
+    color: #1b1b1b;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.dish-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.dish-gallery a {
+    flex: 0 0 calc(50% - 10px);
+    text-decoration: none;
+    color: inherit;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 10px;
+}
+
+.dish-gallery a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    background:rgba(255, 255, 255, 1);
+}
+
+.dish-gallery a:hover img {
+    filter: brightness(1.1);
+}
+
+.dish-gallery a h1 {
+    transition: color 0.3s ease;
+    margin: 10px 0px 10px 520px;
+    padding: 0 10px;
+    font-size: 40px;
+    text-align: left;
+}
+
+
+.dish-gallery a:hover h1 {
+    color: #dd8500;
+}
+
+.dish-gallery a p {
+    margin: 10px 0 10px 520px;
+    padding: 0 10px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .flex-2 {
+        flex-direction: column;
+    }
+
+    .dish-gallery a {
+        flex: 0 0 100%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}

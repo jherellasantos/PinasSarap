@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dish-template.css">
+    <title>Kinilaw</title>
+</head>
+<body>
+    <div class="nav">
+        <img src="images/logo.png">
+                    <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search dishes...">
+                <button id="searchBtn">Search</button>
+            </div>
+                            <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="category-bar">
+        <a href="sweets.html">Sweets</a>
+        <a href="savory.html">Savory</a>
+        <a href="soup.html">Soup</a>
+        <a href="snacks.html">Snacks</a>
+    </div>
+
+    <ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="visayas.html">Visayas</a></li>
+        <li>Kinilaw</li>
+    </ul>
+
+    <div class="dishpix">
+    <div class="dishpix-slider" id="slider">
+        <img src="images/visayas-kinilaw.jpg" alt="Kinilaw">
+        <img src="https://cdn.sanity.io/images/f3knbc2s/production/f1d82a8e47058a83bf85bc01a150e520352a1975-2500x1500.jpg?auto=format" alt="kinilaw">
+        <img src="https://savorfilipino.food.blog/wp-content/uploads/2018/09/j.jpg" alt="kinilaw">
+    </div>
+    
+    <div class="dots" id="dots">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+    <hr>
+
+    <section id="kinilaw">
+        <div class="section-header">
+            <h1>Kinilaw</h1>
+            <div class="sticky-button-container">
+                <a href="#recipe">
+                    <button class="jump-button">Jump to Recipe</button>
+                </a>
+            </div>
+        </div>
+
+        <p>Kinilaw is a classic Filipino salad-like dish of raw seafood cured in vinegar, citrus, and aromatics. It is a popular Visayan specialty often made with fish, shrimp, or shellfish and flavored with coconut milk, ginger, onions, and chili.</p>
+
+        <p>In the Visayas, kinilaw is a celebrated appetizer and pulutan served fresh from the market or beach. The acidic cure preserves the seafood while delivering bright, tangy flavors that complement chilled drinks and festive gatherings.</p>
+        <br>
+    </section>
+
+    <hr>
+
+    <div id="recipe">
+        <h2>Recipe</h2>
+        <h3>Ingredients</h3>
+        <table>
+            <tr>
+                <td colspan="3">
+                    <h4>Kinilaw</h4>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="ki-item1" name="ingredient" value="fish">
+                            <label for="ki-item1">400g fresh tuna or fish, cubed</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="ki-item2" name="ingredient" value="vinegar">
+                            <label for="ki-item2">1/2 cup cane vinegar or calamansi juice</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="ki-item3" name="ingredient" value="coconut-milk">
+                            <label for="ki-item3">2 tbsp coconut milk (optional)</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="ki-item4" name="ingredient" value="ginger">
+                            <label for="ki-item4">1 thumb ginger, peeled and sliced</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="ki-item5" name="ingredient" value="onion">
+                            <label for="ki-item5">1 small red onion, thinly sliced</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="ki-item6" name="ingredient" value="chili">
+                            <label for="ki-item6">2 bird’s eye chilies, chopped</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="ki-item7" name="ingredient" value="sea-salt">
+                            <label for="ki-item7">1 tsp sea salt</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="ki-item8" name="ingredient" value="pepper">
+                            <label for="ki-item8">Freshly cracked black pepper</label>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <div class="instruction-panel">
+            <h3>How to Cook</h3>
+            <ol>
+                <li><b>Prepare the fish: </b>
+                    <p>Rinse and pat dry the fish. Cut into bite-sized cubes and transfer to a glass or ceramic bowl.</p>
+                </li>
+            <br>
+            <li><b>Cure the seafood: </b>
+                <p>Pour vinegar or calamansi juice over the fish. Add ginger slices, salt, and pepper. Toss gently and let it marinate for 5 to 10 minutes until the fish turns opaque.</p>
+            </li>
+            <br>
+            <li><b>Add aromatics: </b>
+                <p>Stir in sliced onions, chopped chilies, and coconut milk if using. Adjust seasoning with additional salt or calamansi juice to taste.</p>
+            </li>
+            <br>
+            <li><b>Serve fresh: </b>
+                <p>Transfer the kinilaw to a serving bowl and enjoy immediately with steamed rice or as a pulutan.</p>
+            </li>
+        </ol>
+    </div>
+
+    <hr>
+
+    <div class="video-section">
+        <h2>Video Tutorial</h2>
+        <p>Watch this step-by-step video guide on how to prepare authentic Kinilaw:</p>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/OGy_AQUkiDA?si=vRrj1V33v7c5gr3_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+    
+        <button id="backToTop" class="back-to-top" aria-label="Back to top">&uarr;</button>
+    <script src="search.js"></script>
+
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const slider = document.getElementById('slider');
+            const dots = document.querySelectorAll('#dots span');
+
+            slider.addEventListener('scroll', () => {
+                const scrollPosition = slider.scrollLeft;
+                const width = slider.clientWidth;
+
+                const index = Math.round(scrollPosition / width);
+
+                dots.forEach(dot => dot.classList.remove('active'));
+                if (dots[index]) {
+                    dots[index].classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

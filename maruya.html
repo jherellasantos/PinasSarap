@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dish-template.css">
+    <title>Maruya</title>
+</head>
+<body>
+    <div class="nav">
+        <img src="images/logo.png" alt="PINASSARAP Logo">
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search dishes...">
+            <button id="searchBtn">Search</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="category-bar">
+        <a href="sweets.html">Sweets</a>
+        <a href="savory.html">Savory</a>
+        <a href="soup.html">Soup</a>
+        <a href="snacks.html">Snacks</a>
+    </div>
+
+    <ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="visayas.html">Visayas</a></li>
+        <li>Maruya</li>
+    </ul>
+
+        <div class="dishpix">
+    <div class="dishpix-slider" id="slider">
+        <img src="https://www.foxyfolksy.com/wp-content/uploads/2021/03/maruya.jpg" alt="maruya">
+        <img src="https://umamidays.com/wp-content/uploads/2023/01/maruya-7-480x270.jpg" alt="Maruya">
+        <img src="https://theunlikelybaker.com/wp-content/uploads/2024/07/5-Filipino-Fried-Banana-Dessert.jpg" alt="maruya">
+    </div>
+    
+    <div class="dots" id="dots">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+    <hr>
+
+    <section id="maruya">
+        <div class="section-header">
+            <h1>Maruya</h1>
+            <div class="sticky-button-container">
+                <a href="#recipe">
+                    <button class="jump-button">Jump to Recipe</button>
+                </a>
+            </div>
+        </div>
+
+        <p>Maruya, which is commonly associated with the Visayas, is a Filipino banana fritter made by coating saba bananas in batter and frying them until crisp and golden.</p>
+        <p>Depending on the region, bananas may be sliced, mashed, or fanned out before frying, giving each version a distinct texture.</p>
+        <p>It is a classic merienda often dusted with sugar and served hot with coffee or tea.</p>
+    </section>
+
+    <hr>
+
+    <div id="recipe">
+        <h2>Recipe</h2>
+        <h3>Ingredients</h3>
+        <table>
+            <tr>
+                <td>
+                    <h4>Main</h4>
+                    <ul>
+                        <li><input type="checkbox" id="maruya-saba"><label for="maruya-saba"> 6 ripe saba bananas</label></li>
+                        <li><input type="checkbox" id="maruya-flour"><label for="maruya-flour"> 1 cup all-purpose flour</label></li>
+                        <li><input type="checkbox" id="maruya-sugar"><label for="maruya-sugar"> 1/4 cup sugar</label></li>
+                        <li><input type="checkbox" id="maruya-baking"><label for="maruya-baking"> 1 tsp baking powder</label></li>
+                        <li><input type="checkbox" id="maruya-salt"><label for="maruya-salt"> Pinch of salt</label></li>
+                        <li><input type="checkbox" id="maruya-milk"><label for="maruya-milk"> 3/4 cup milk or water</label></li>
+                        <li><input type="checkbox" id="maruya-egg"><label for="maruya-egg"> 1 egg</label></li>
+                        <li><input type="checkbox" id="maruya-oil"><label for="maruya-oil"> Cooking oil for frying</label></li>
+                    </ul>
+                </td>
+                <td>
+                    <h4>Optional Toppings</h4>
+                    <ul>
+                        <li><input type="checkbox" id="maruya-white-sugar"><label for="maruya-white-sugar"> White sugar for dusting</label></li>
+                        <li><input type="checkbox" id="maruya-cinnamon"><label for="maruya-cinnamon"> Cinnamon sugar</label></li>
+                        <li><input type="checkbox" id="maruya-condensed"><label for="maruya-condensed"> Condensed milk drizzle</label></li>
+                    </ul>
+                </td>
+                <td>
+                    <h4>Equipment</h4>
+                    <ul>
+                        <li><input type="checkbox" id="maruya-bowl"><label for="maruya-bowl"> Mixing bowl</label></li>
+                        <li><input type="checkbox" id="maruya-whisk"><label for="maruya-whisk"> Whisk</label></li>
+                        <li><input type="checkbox" id="maruya-pan"><label for="maruya-pan"> Frying pan</label></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+        <div class="instruction-panel">
+            <h3>How to Cook</h3>
+            <ol>
+                <li><b>Prepare Bananas:</b>
+                    <p>Peel saba bananas and slice each lengthwise, or lightly flatten for fan-style maruya.</p>
+                </li>
+                <li><b>Make Batter:</b>
+                    <p>In a bowl, whisk flour, sugar, baking powder, and salt. Add egg and milk, then mix into a smooth batter.</p>
+                </li>
+                <li><b>Coat and Fry:</b>
+                    <p>Dip bananas into batter and fry in hot oil over medium heat until both sides are golden brown.</p>
+                </li>
+                <li><b>Finish and Serve:</b>
+                    <p>Drain on paper towels and sprinkle with sugar while warm.</p>
+                </li>
+            </ol>
+        </div>
+
+        <hr>
+
+        <div class="video-section">
+            <h2>Video Tutorial</h2>
+            <p>Watch this step-by-step video guide on how to prepare Maruya:</p>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/zVCUMZ03V6c?si=My-mzNMFCsEhIAO7" title="Maruya Recipe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">&uarr;</button>
+    <script src="search.js"></script>
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const slider = document.getElementById('slider');
+            const dots = document.querySelectorAll('#dots span');
+
+            slider.addEventListener('scroll', () => {
+                const scrollPosition = slider.scrollLeft;
+                const width = slider.clientWidth;
+
+                const index = Math.round(scrollPosition / width);
+
+                dots.forEach(dot => dot.classList.remove('active'));
+                if (dots[index]) {
+                    dots[index].classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+

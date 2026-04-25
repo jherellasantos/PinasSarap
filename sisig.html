@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dish-template.css">
+    <title>Sisig</title>
+</head>
+<body>
+    <div class="nav">
+        <img src="images/logo.png" alt="PINASSARAP Logo">
+                    <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search dishes...">
+                <button id="searchBtn">Search</button>
+            </div>
+                            <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="category-bar">
+        <a href="sweets.html">Sweets</a>
+        <a href="savory.html">Savory</a>
+        <a href="soup.html">Soup</a>
+        <a href="snacks.html">Snacks</a>
+    </div>
+
+    <ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="luzon.html">Luzon</a></li>
+        <li>Sisig</li>
+    </ul>
+
+    <div class="dishpix">
+    <div class="dishpix-slider" id="slider">
+        <img src="https://www.unileverfoodsolutions.com.ph/dam/global-ufs/mcos/SEA/calcmenu/recipes/PH-recipes/appetisers/sizzling-pork-sisig-manila/sizzling-pork-sisig-manila-main.jpg" alt="Sizzling Pork Sisig">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/070/482/737/small_2x/steaming-filipino-sizzling-sisig-topped-with-sunny-egg-culinary-dance-of-textures-perfect-for-fiestas-and-sinulog-celebrations-photo.jpg" alt="Sizzling Pork Sisig">
+        <img src="https://victoriarosefoodie.com/wp-content/uploads/2025/07/FIL09586-scaled.jpg" alt="Sizzling Pork Sisig">
+    </div>
+    
+    <div class="dots" id="dots">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+    <hr>
+
+    <section id="sisig">
+        <div class="section-header">
+            <h1>Sisig</h1>
+            <div class="sticky-button-container">
+                <a href="#recipe">
+                    <button class="jump-button">Jump to Recipe</button>
+                </a>
+            </div>
+        </div>
+
+        <p>Sisig is a popular Filipino dish made from chopped pork parts such as jowl, ears, and belly, usually seasoned with calamansi, onions, and chili peppers and served on a sizzling plate. It originated in Pampanga, particularly in Angeles City, and is considered a famous staple of Kapampangan cuisine.</p>
+
+        <p>The modern sizzling sisig became popular in Angeles City, Pampanga. It began along Glaciano Valdez, near the "Crossing" of the old train station in the 1970s where Lucia Cunanan (Aling Lucing), who owned a small hawker stand, started chopping pork ears, jowls, and maskara after accidentally overcooking them and soaking them in vinegar. She served the dish as pulutan (bar food) for beer drinkers, including locals and American servicemen stationed at Clark Air Base. To this day, sizzling sisig is commonly served in bars and restaurants, where it has become highly popular and in demand. It has even been adapted into instant versions, allowing it to be enjoyed anytime and anywhere.</p>
+    </section>
+
+    
+
+    <hr>
+
+    <div id="recipe">
+        <h2>Recipe</h2>
+        <h3>Ingredients</h3>
+        <table>
+            <tr>
+                <td>
+                    <h4>Sisig</h4>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="sisig-water" name="sisig-ingredients" value="water">
+                            <label for="sisig-water">1 ½ liter water</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="sisig-salt" name="sisig-ingredients" value="salt">
+                            <label for="sisig-salt">1 ½ tbsp salt</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="sisig-vinegar" name="sisig-ingredients" value="vinegar">
+                            <label for="sisig-vinegar">1 ½ tbsp vinegar</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="sisig-pork" name="sisig-ingredients" value="pork">
+                            <label for="sisig-pork">300g 1-inch thick boneless pork belly, cut into rashers</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="sisig-oil" name="sisig-ingredients" value="oil">
+                            <label for="sisig-oil">Neutral oil, for frying</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="sisig-chili" name="sisig-ingredients" value="chili">
+                            <label for="sisig-chili">2 green chili, chopped</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="sisig-onion" name="sisig-ingredients" value="onion">
+                            <label for="sisig-onion">½ red onion, minced</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="sisig-chicharon" name="sisig-ingredients" value="chicharon">
+                            <label for="sisig-chicharon">3 pieces chicharon, crushed</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="sisig-sauce" name="sisig-ingredients" value="sauce">
+                            <label for="sisig-sauce">Hot sauce, to taste</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="sisig-seasoning" name="sisig-ingredients" value="seasoning">
+                            <label for="sisig-seasoning">Liquid seasoning, to taste</label>
+                        </li>
+
+                    </ul>
+                </td>
+                <td>
+                    <h4>Sisig Sauce</h4>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="sauce-oil" name="sauce-ingredients" value="oil">
+                            <label for="sauce-oil">2 tbsp neutral oil</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="sauce-liver" name="sauce-ingredients" value="liver">
+                            <label for="sauce-liver">100g chicken liver</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="sauce-mayo" name="sauce-ingredients" value="mayo">
+                            <label for="sauce-mayo">½ cup sweet mayonnaise</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="sauce-seasoning" name="sauce-ingredients" value="seasoning">
+                            <label for="sauce-seasoning">1 tsp liquid seasoning</label>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <h4>For Serving</h4>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="serve-rice" name="serve-ingredients" value="rice">
+                            <label for="serve-rice">2 cups steamed rice</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="serve-eggs" name="serve-ingredients" value="eggs">
+                            <label for="serve-eggs">2 eggs, fried</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="serve-calamansi" name="serve-ingredients" value="calamansi">
+                            <label for="serve-calamansi">1 calamansi, halved</label>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <div class="instruction-panel">
+            <h3>How to Cook</h3>
+            <ol>
+                <li><b>Make sisig sauce:</b>
+                    <p>Add oil to a skillet set over high heat. When the pan starts smoking, add chicken liver. Season with salt and fry until a crust forms on one side, about 2 minutes. Reduce heat to medium-low. Flip liver and fry until cooked through. Transfer to a medium bowl.</p>
+                    <p>Mash liver with a fork. Add mayonnaise and liquid seasoning. Mix until liver is well-incorporated. Set aside until ready to use.</p>
+                </li>
+                <li><b>Prepare pork belly:</b>
+                    <p>Pour water in a deep pot set over high heat. Bring to a boil. Season with salt and vinegar, stirring to combine. Add pork belly. Cook until fat turns translucent and soft, about 10-15 minutes. Don't over-boil; the skin won't crisp up if too much water is absorbed.</p>
+                    <p>Using tongs, transfer pork belly to a wire rack or paper towel-lined plate. Allow pork to dry for 10 minutes. Pat off any excess moisture with paper towels.</p>
+                </li>
+                <li><b>Fry and assemble:</b>
+                    <p>Heat oil in a sizzling plate or skillet set over high heat until smoking. Add pork belly and fry until edges are crispy and browned, about 5-7 minutes. Add chopped chili, minced onion, and crushed chicharon. Toss to combine.</p>
+                    <p>Pour in the sisig sauce and stir until everything is well coated. Add hot sauce and liquid seasoning to taste. Serve hot on the sizzling plate with steamed rice, fried egg, and calamansi wedges on the side.</p>
+                </li>
+            </ol>
+        </div>
+
+        <hr>
+
+        <div class="video-section">
+            <h2>Video Tutorial</h2>
+            <p>Watch this step-by-step video guide on how to prepare authentic Sisig:</p>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qZsrru6hGBY?si=0toja6bjbtbSdQfC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    
+        <button id="backToTop" class="back-to-top" aria-label="Back to top">&uarr;</button>
+    <script src="search.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const slider = document.getElementById('slider');
+            const dots = document.querySelectorAll('#dots span');
+
+            slider.addEventListener('scroll', () => {
+                const scrollPosition = slider.scrollLeft;
+                const width = slider.clientWidth;
+
+                const index = Math.round(scrollPosition / width);
+
+                dots.forEach(dot => dot.classList.remove('active'));
+                if (dots[index]) {
+                    dots[index].classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

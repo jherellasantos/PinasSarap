@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dish-template.css">
+    <title>Sinigang na Baboy</title>
+</head>
+<body>
+    <div class="nav">
+        <img src="images/logo.png" alt="PINASSARAP Logo">
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search dishes...">
+            <button id="searchBtn">Search</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="category-bar">
+        <a href="sweets.html">Sweets</a>
+        <a href="savory.html">Savory</a>
+        <a href="soup.html">Soup</a>
+        <a href="snacks.html">Snacks</a>
+    </div>
+
+    <ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="soup.html">Soup</a></li>
+        <li>Sinigang na Baboy</li>
+    </ul>
+
+        <div class="dishpix">
+    <div class="dishpix-slider" id="slider">
+        <img src="https://assets.unileversolutions.com/recipes-v2/214408.png" alt="sinigang na baboy">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQ7L6OV5om0l-0mbTYeQMGUMQGQWgvzlQG7JQVi_gy2JHQcITW8KEpAMaRFzM4fqInPuzOM24SJPTQTy7rVnqzTdaEDipa6fHHHs5TsLOfVdJYP2qkSs0yJ67otS-QMtrl01ijE_JVIo0/s1600/maxresdefault.jpg" alt="Sinigang na Baboy">
+        <img src="https://i0.wp.com/www.whats4eats.com/wp-content/uploads/2024/04/soups-sinigang-na-baboy-flickr-mattmendoza-4991606157-4x3-1.jpg?resize=750%2C563&ssl=1" alt="Sinigang na Baboy">
+    </div>
+    
+    <div class="dots" id="dots">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+    <hr>
+
+    <section id="sinigang-na-baboy">
+        <div class="section-header">
+            <h1>Sinigang na Baboy</h1>
+            <div class="sticky-button-container">
+                <a href="#recipe">
+                    <button class="jump-button">Jump to Recipe</button>
+                </a>
+            </div>
+        </div>
+
+        <p>Sinigang na Baboy, which is widely associated with Luzon, is one of the most iconic Filipino comfort soups, known for its sour and savory broth. It is typically made with pork, tomatoes, onions, and tamarind as the souring base.</p>
+        <p>Different regions and households use various souring agents like fresh sampalok, guava, kamias, or calamansi. The dish is often packed with vegetables, making it hearty and nourishing.</p>
+        <p>Served hot with rice and fish sauce with chili on the side, sinigang is especially loved during rainy weather and family meals.</p>
+    </section>
+
+    <hr>
+
+    <div id="recipe">
+        <h2>Recipe</h2>
+        <h3>Ingredients</h3>
+        <table>
+            <tr>
+                <td>
+                    <h4>Main</h4>
+                    <ul>
+                        <li><input type="checkbox" id="sinigang-pork"><label for="sinigang-pork"> 1 kg pork belly or ribs, cut into serving pieces</label></li>
+                        <li><input type="checkbox" id="sinigang-water"><label for="sinigang-water"> 8 cups water</label></li>
+                        <li><input type="checkbox" id="sinigang-onion"><label for="sinigang-onion"> 1 onion, quartered</label></li>
+                        <li><input type="checkbox" id="sinigang-tomato"><label for="sinigang-tomato"> 2 tomatoes, quartered</label></li>
+                        <li><input type="checkbox" id="sinigang-base"><label for="sinigang-base"> Tamarind soup mix or fresh tamarind</label></li>
+                    </ul>
+                </td>
+                <td>
+                    <h4>Vegetables</h4>
+                    <ul>
+                        <li><input type="checkbox" id="sinigang-radish"><label for="sinigang-radish"> 1 radish, sliced</label></li>
+                        <li><input type="checkbox" id="sinigang-eggplant"><label for="sinigang-eggplant"> 1 eggplant, sliced</label></li>
+                        <li><input type="checkbox" id="sinigang-kangkong"><label for="sinigang-kangkong"> 1 bunch kangkong</label></li>
+                        <li><input type="checkbox" id="sinigang-stringbeans"><label for="sinigang-stringbeans"> String beans, cut</label></li>
+                        <li><input type="checkbox" id="sinigang-chili"><label for="sinigang-chili"> 2 long green chilies</label></li>
+                    </ul>
+                </td>
+                <td>
+                    <h4>Seasoning</h4>
+                    <ul>
+                        <li><input type="checkbox" id="sinigang-fishsauce"><label for="sinigang-fishsauce"> Fish sauce, to taste</label></li>
+                        <li><input type="checkbox" id="sinigang-pepper"><label for="sinigang-pepper"> Ground pepper, to taste</label></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+        <div class="instruction-panel">
+            <h3>How to Cook</h3>
+            <ol>
+                <li><b>Simmer the Pork:</b>
+                    <p>In a pot, combine pork, water, onion, and tomatoes. Bring to a boil, skim scum, then simmer until pork is tender.</p>
+                </li>
+                <li><b>Add Sour Base:</b>
+                    <p>Stir in tamarind soup mix (or fresh tamarind extract) and season with fish sauce.</p>
+                </li>
+                <li><b>Cook Vegetables:</b>
+                    <p>Add radish and eggplant first, then string beans. Add kangkong and chilies last to keep them fresh and vibrant.</p>
+                </li>
+                <li><b>Serve:</b>
+                    <p>Taste and adjust seasoning. Serve piping hot with steamed rice.</p>
+                </li>
+            </ol>
+        </div>
+
+        <hr>
+
+        <div class="video-section">
+            <h2>Video Tutorial</h2>
+            <p>Watch this step-by-step video guide on how to prepare Sinigang na Baboy:</p>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/t-beBtUZz3E?si=pA-EsRQzfMaIUOcF" title="Sinigang na Baboy Recipe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">&uarr;</button>
+    <script src="search.js"></script>
+
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const slider = document.getElementById('slider');
+            const dots = document.querySelectorAll('#dots span');
+
+            slider.addEventListener('scroll', () => {
+                const scrollPosition = slider.scrollLeft;
+                const width = slider.clientWidth;
+
+                const index = Math.round(scrollPosition / width);
+
+                dots.forEach(dot => dot.classList.remove('active'));
+                if (dots[index]) {
+                    dots[index].classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+

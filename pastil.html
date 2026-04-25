@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dish-template.css">
+    <title>Pastil</title>
+</head>
+<body>
+    <div class="nav">
+        <img src="images/logo.png" alt="PINASSARAP Logo">
+                    <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search dishes...">
+                <button id="searchBtn">Search</button>
+            </div>
+                            <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="category-bar">
+        <a href="sweets.html">Sweets</a>
+        <a href="savory.html">Savory</a>
+        <a href="soup.html">Soup</a>
+        <a href="snacks.html">Snacks</a>
+    </div>
+
+    <ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="mindanao.html">Mindanao</a></li>
+        <li>Pastil</li>
+    </ul>
+
+    <div class="dishpix">
+    <div class="dishpix-slider" id="slider">
+        <img src="https://images.yummy.ph/yummy/uploads/2023/10/chickenpastilrecipe-small-2.jpg" alt="Pastil">
+        <img src="https://www.unileverfoodsolutions.com.ph/dam/global-ufs/mcos/sea/philippines/acm/recipe/fm-25-recipes/chicken-patir/Chicken-Patir-Header.jpg" alt="pastil">
+        <img src="https://yummykitchentv.com/wp-content/uploads/2024/12/Easy-Chicken-Pastil_feature-image.jpg" alt="pastil">
+    </div>
+    
+    <div class="dots" id="dots">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+    <hr>
+
+    <section id="sisig">
+        <div class="section-header">
+            <h1>Pastil</h1>
+            <div class="sticky-button-container">
+                <a href="#recipe">
+                    <button class="jump-button">Jump to Recipe</button>
+                </a>
+            </div>
+        </div>
+
+        <p>Pastil (also known as patil or patel) is a beloved, budget-friendly comfort food originating from the Maguindanao province in Mindanao, Philippines. Traditionally served as a hearty breakfast but perfect for any time of day, this humble yet incredibly flavorful dish is the epitome of Filipino ingenuity. It consists of perfectly steamed rice topped with kagikit—finely shredded, savory meat—all wrapped snugly in a fragrant, wilted banana leaf. The banana leaf doesn't just serve as eco-friendly packaging; it traps the heat and infuses the rice with a distinct, earthy aroma that makes every bite unmistakable.</p>
+
+        <p>Pastil traces its roots to the Maguindanaon people in the Mindanao region of the southern Philippines, specifically around Maguindanao and Cotabato. Long before the era of plastic food containers, the indigenous peoples of the Philippines relied on nature for food storage. Pastil was born out of pure necessity. Farmers, fishermen, merchants, and travelers needed a meal that could survive long journeys under the hot Philippine sun without spoiling. By sautéing the meat until it was relatively dry (removing moisture prevents rapid bacterial growth) and wrapping the meal tightly in a banana leaf (which has natural antimicrobial properties), they created a self-contained, shelf-stable packed lunch. It was the original "grab-and-go" food. Over time, what started as a practical way to transport food became deeply ingrained in the local culinary identity of Muslim Mindanao.</p>
+    </section>
+
+    
+
+    <hr>
+
+    <div id="recipe">
+        <h2>Recipe</h2>
+        <h3>Ingredients</h3>
+        <table>
+            <tr>
+                <td>
+                    <h4>Pastil</h4>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="sisig-water" name="sisig-ingredients" value="water">
+                            <label for="sisig-water">500g Chicken breast or thighs</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="sisig-salt" name="sisig-ingredients" value="salt">
+                            <label for="sisig-salt">3 tbsp cooking oil</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="sisig-vinegar" name="sisig-ingredients" value="vinegar">
+                            <label for="sisig-vinegar">4 cloves garlic, minced</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="sisig-pork" name="sisig-ingredients" value="pork">
+                            <label for="sisig-pork">1 medium red onion, minced</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="sisig-oil" name="sisig-ingredients" value="oil">
+                            <label for="sisig-oil">1 thumb-sized ginger, minced</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="sisig-chili" name="sisig-ingredients" value="chili">
+                            <label for="sisig-chili">¼ cup soy sauce</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="sisig-onion" name="sisig-ingredients" value="onion">
+                            <label for="sisig-onion">1 tsp ground black pepper</label>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <h4>Rice & Wrapper</h4>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="sauce-oil" name="sauce-ingredients" value="oil">
+                            <label for="sauce-oil">cups warm steamed white rice</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="sauce-liver" name="sauce-ingredients" value="liver">
+                            <label for="sauce-liver">Banana leaves, cleaned and cut into 8x8 inch squares</label>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <h4>For Serving (Optional)</h4>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="serve-rice" name="serve-ingredients" value="rice">
+                            <label for="serve-rice">Hard-boiled eggs</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="serve-eggs" name="serve-ingredients" value="eggs">
+                            <label for="serve-eggs">Spicy vinegar (Sinamak)</label>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <div class="instruction-panel">
+            <h3>How to Cook</h3>
+            <ol>
+                <li><b>Prepare the meat:</b>
+                    <p>Place the chicken in a pot of water and bring to a boil. Cook until tender, about 20-25 minutes. Remove the chicken from the broth and let it cool. Once cooled, use your hands or two forks to finely shred or flake the chicken meat. Set aside.</p>
+                </li>
+                <li><b>Cook the Kagikit:</b>
+                    <p>Heat the cooking oil in a pan over medium heat. Sauté the minced garlic, onion, and ginger until aromatic and the onions are translucent. Add the shredded chicken to the pan and stir well. Pour in the soy sauce and season with black pepper. Cook for about 10-15 minutes, stirring continuously, until the liquid has evaporated and the meat is deeply savory, slightly dark, and almost dry.</p>
+                </li>
+                <li><b>Prepare the banana leaves:</b>
+                    <p>Briefly pass the banana leaf squares over an open stove flame for a few seconds. This will wilt the leaves, making them glossy, pliable, and resistant to tearing when folded. Wipe them clean with a damp cloth.</p>
+                </li>
+                <li><b>Assemble the Pastil:</b>
+                    <p>Lay a prepared banana leaf flat on a surface. Place a cup of warm steamed rice in the center, shaping it slightly into a rectangle. Top the rice with 2 to 3 tablespoons of the savory kagikit. Fold the sides of the banana leaf inward to tightly wrap the rice and meat into a neat parcel. Serve warm with spicy vinegar or hard-boiled eggs on the side.</p>
+                </li>
+            </ol>
+        </div>
+
+        <hr>
+
+        <div class="video-section">
+            <h2>Video Tutorial</h2>
+            <p>Watch this step-by-step video guide on how to prepare authentic Pastil:</p>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/IouLtScxP8Q?si=tMm4s_-NcAJwOEbY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    
+        <button id="backToTop" class="back-to-top" aria-label="Back to top">&uarr;</button>
+    <script src="search.js"></script>
+
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const slider = document.getElementById('slider');
+            const dots = document.querySelectorAll('#dots span');
+
+            slider.addEventListener('scroll', () => {
+                const scrollPosition = slider.scrollLeft;
+                const width = slider.clientWidth;
+
+                const index = Math.round(scrollPosition / width);
+
+                dots.forEach(dot => dot.classList.remove('active'));
+                if (dots[index]) {
+                    dots[index].classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

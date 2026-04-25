@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dish-template.css">
+    <title>Suman</title>
+</head>
+<body>
+    <div class="nav">
+        <img src="images/logo.png" alt="PINASSARAP Logo">
+                    <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search dishes...">
+                <button id="searchBtn">Search</button>
+            </div>
+                            <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="category-bar">
+        <a href="sweets.html">Sweets</a>
+        <a href="savory.html">Savory</a>
+        <a href="soup.html">Soup</a>
+        <a href="snacks.html">Snacks</a>
+    </div>
+
+    <ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="luzon.html">Luzon</a></li>
+        <li>Suman</li>
+    </ul>
+
+    <div class="dishpix">
+    <div class="dishpix-slider" id="slider">
+        <img src="https://sweetsimplevegan.com/wp-content/uploads/2021/12/suman-malagkit-recipe-Sweet-Simple-Vegan-6-1.jpg" alt="Suman Malagkit">
+        <img src="https://greedy-panda.com/wp-content/uploads/2022/09/Suman-malagkit-1600x1067.jpg.webp" alt="Suman Malagkit">
+        <img src="https://amcarmenskitchen.com/wp-content/uploads/2018/12/1334.jpg?w=810" alt="Suman Malagkit">
+    </div>
+    
+    <div class="dots" id="dots">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+    <hr>
+
+    <section id="suman">
+        <div class="section-header">
+            <h1>Suman Malagkit</h1>
+            <div class="sticky-button-container">
+                <a href="#recipe">
+                    <button class="jump-button">Jump to Recipe</button>
+                </a>
+            </div>
+        </div>
+
+        <p>Suman dates back to pre-colonial Philippines, when early Filipinos made rice-based foods during harvest time. Rice cakes like suman were created from freshly harvested rice and were often offered to gods, spirits, and ancestors as part of religious practices.</p>
+
+        <p>Because rice was a staple food, suman became an important part of daily life and culture. Early accounts, such as those by explorer Antonio Pigafetta, already described rice cakes wrapped in leaves, showing that suman existed even before foreign colonization.</p>
+
+        <p>Over time, despite Spanish, American, and other cultural influences, the basic form of suman remained unchanged. It continued to be a traditional food shared during gatherings and celebrations, especially Christmas, and symbolized gratitude, community, and blessings from nature.</p>
+
+        <p>Today, suman remains a long-standing Filipino delicacy with many regional variations, reflecting its deep cultural roots.</p>
+
+
+    </section>
+
+    
+
+    <hr>
+
+    <div id="recipe">
+        <h2>Recipe</h2>
+        <h3>Ingredients</h3>
+        <table>
+            <tr>
+                <td>
+                    <h4>Suman</h4>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="suman-coconut-milk" name="suman-ingredients" value="coconut-milk">
+                            <label for="suman-coconut-milk"> 2 (13.5 oz/pc) cans coconut milk</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="suman-sugar" name="suman-ingredients" value="sugar">
+                            <label for="suman-sugar">¾ to 1 cup sugar (adjust to taste)</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="suman-rice" name="suman-ingredients" value="rice">
+                            <label for="suman-salt">2 cups glutinous (sticky) rice
+</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="suman-salt" name="suman-ingredients" value="salt">
+                            <label for="suman-salt">¾ teaspoon salt</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="suman-banana-leaves" name="suman-ingredients" value="banana-leaves">
+                            <label for="sisig-pork">Banana leaves (10 12×10 inch pieces for wrapping plus extra for tying)</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="suman-ginger" name="suman-ingredients" value="ginger">
+                            <label for="suman-ginger"> Optional: 2 inches fresh ginger, sliced into 2-3 large chunks</label>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <h4>Coconut Caramel Sauce</h4>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="sauce-coconut-milk" name="sauce-ingredients" value="coconut-milk">
+                            <label for="sauce-coconut-milk"> 1 (13.5 oz) can coconut milk</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="sauce-sugar" name="sauce-ingredients" value="sugar">
+                            <label for="sauce-liver">¾ cup sugar</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="sauce-salt" name="sauce-ingredients" value="salt">
+                            <label for="sauce-salt">½ teaspoon salt</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="sauce-vanilla-extract" name="sauce-ingredients" value="vanilla-extract">
+                            <label for="sauce-vanilla-extract">Optional: 1/2 teaspoon vanilla extract</label>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <h4>Equipment</h4>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="equipment-wok" name="suman-equipment" value="wok">
+                            <label for="serve-rice">Large wok or pot (preferably non-stick)</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="equipment-pot" name="suman-equipment" value="pot">
+                            <label for="serve-eggs">Shallow steamer pot</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="equipment-towel" name="suman-equipment" value="clean-towel">
+                            <label for="serve-calamansi">Clean towel, to clean banana leaves</label>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <div class="instruction-panel">
+            <h3>How to Cook</h3>
+            <ol>
+                <li><b>Suman Rice:</b>
+                    <p>Measure the rice you will need and rinse it 3-4 times or until the water runs clear. Place it into a large bowl, cover with fresh water and soak overnight.</p>
+                    
+                    <p>Mash liver with a fork. Add mayonnaise and liquid seasoning. Mix until liver is well-incorporated. Set aside until ready to use.</p>
+                    
+                    <p>Drain the excess water from the rice and add it to the wok with the ginger.</p>
+                    
+                    <p>Once boiling, lower the heat to a simmer. Cook, stir until it becomes thick, like oatmeal or porridge. Remove from heat and discard the ginger. Set aside for now.</p></li>
+
+                
+                <li><b>Assembly:</b>
+                    <p>Wash banana leaves and then pat gently with a towel. If they are frozen, run them under warm water until thawed. </p>
+                    <p>Cut the banana leaves into 12×10 inch pieces. Heat both sides of the banana leaves over low heat on the stovetop and then set aside.</p>
+                    <p>Scoop 1/3 cup of the rice mixture into the prepared banana leaves and spread it out into a smooth shape about 5-inches long, about 1 inch away from the bottom. Roll the banana leaf over the mound of rice, then fold in the sides. Continue until you have rolled all of the suman.</p>
+                    <p>Rip strings from the extra banana leaves and tie the suman shut. You can tie them individually or in pairs. Kitchen twine works here as well.</p>
+                    <p>Place into a shallow steamer pot and add enough water to where it’s touching the suman. </p>
+                    <p>Cover and bring to a boil over medium heat. Once boiling, reduce the heat to low and steam for 1 hour, adding more water as needed.</p>
+
+                </li>
+                <li><b>Caramel Sauce:</b>
+                    <p>Combine all ingredients except for the vanilla in a small pot over medium heat and whisk together until smooth. Bring to a boil and continue cooking until thick caramel forms, regularly mixing for 15-20 minutes. Remove from heat and add the vanilla.</p>
+                </li>
+                <li><b>Serve:</b>
+                <p>Once the suman is done, remove it from the steamer and allow it to cool until easy to handle.</p><p>Unwrap the suman and serve with a drizzle of caramel sauce. Enjoy!</li>
+            </ol>
+        </div>
+
+        <hr>
+
+        <div class="video-section">
+            <h2>Video Tutorial</h2>
+            <p>Watch this step-by-step video guide on how to prepare authentic Suman:</p>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2ZEIx7SXyAE?si=AYrxsK3fUPhOgSoJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    
+        <button id="backToTop" class="back-to-top" aria-label="Back to top">&uarr;</button>
+    <script src="search.js"></script>
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const slider = document.getElementById('slider');
+            const dots = document.querySelectorAll('#dots span');
+
+            slider.addEventListener('scroll', () => {
+                const scrollPosition = slider.scrollLeft;
+                const width = slider.clientWidth;
+
+                const index = Math.round(scrollPosition / width);
+
+                dots.forEach(dot => dot.classList.remove('active'));
+                if (dots[index]) {
+                    dots[index].classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

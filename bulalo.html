@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dish-template.css">
+    <title>Bulalo</title>
+</head>
+<body>
+    <div class="nav">
+        <img src="images/logo.png" alt="PINASSARAP Logo">
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search dishes...">
+            <button id="searchBtn">Search</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="category-bar">
+        <a href="sweets.html">Sweets</a>
+        <a href="savory.html">Savory</a>
+        <a href="soup.html">Soup</a>
+        <a href="snacks.html">Snacks</a>
+    </div>
+
+    <ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="soup.html">Soup</a></li>
+        <li>Bulalo</li>
+    </ul>
+
+    <div class="dishpix">
+    <div class="dishpix-slider" id="slider">
+        <img src="https://media.istockphoto.com/id/1440931774/photo/bulalo-is-a-beef-dish-from-the-philippines-soup-made-by-cooking-beef-shanks-and-bone-marrow.jpg?s=612x612&w=0&k=20&c=RrJzBAaqhXXAPhwb6dYoo7pRNqsANmk0z1W31_sg0xE=" alt="Bulalo">
+        <img src="https://i1.wp.com/www.angsarap.net/wp-content/uploads/2015/11/Bulalo-Wide.jpg?fit=1080%2C720&ssl=1" alt="Bulalo">
+        <img src="https://www.unileverfoodsolutions.com.ph/dam/global-ufs/mcos/SEA/calcmenu/recipes/PH-recipes/red-meats-&-red-meat-dishes/bulalo-with-lemongrass-and-ginger/bulalo-with-tanglad-and-ginger-main-banner.jpg">
+    </div>
+    
+    <div class="dots" id="dots">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+    <hr>
+
+    <section id="bulalo">
+        <div class="section-header">
+            <h1>Bulalo</h1>
+            <div class="sticky-button-container">
+                <a href="#recipe">
+                    <button class="jump-button">Jump to Recipe</button>
+                </a>
+            </div>
+        </div>
+
+        <p>Bulalo, which originated in Luzon, is a beloved Filipino beef marrow soup best known for its rich broth and tender beef shanks. It is simmered slowly until the meat softens and the marrow melts into the soup.</p>
+        <p>This comforting dish is popular in cool-weather places like Tagaytay and is often enjoyed as a family meal. Corn, cabbage, and potatoes add sweetness and texture to the hearty broth.</p>
+        <p>Bulalo is usually served piping hot with steamed rice and a side of fish sauce with calamansi and chili.</p>
+    </section>
+
+    <hr>
+
+    <div id="recipe">
+        <h2>Recipe</h2>
+        <h3>Ingredients</h3>
+        <table>
+            <tr>
+                <td>
+                    <h4>Main</h4>
+                    <ul>
+                        <li><input type="checkbox" id="bulalo-beef"><label for="bulalo-beef"> 1.5 kg beef shank with bone marrow</label></li>
+                        <li><input type="checkbox" id="bulalo-water"><label for="bulalo-water"> 10 cups water</label></li>
+                        <li><input type="checkbox" id="bulalo-onion"><label for="bulalo-onion"> 1 onion, quartered</label></li>
+                        <li><input type="checkbox" id="bulalo-peppercorn"><label for="bulalo-peppercorn"> 1 tbsp whole peppercorns</label></li>
+                        <li><input type="checkbox" id="bulalo-fishsauce"><label for="bulalo-fishsauce"> Fish sauce, to taste</label></li>
+                    </ul>
+                </td>
+                <td>
+                    <h4>Vegetables</h4>
+                    <ul>
+                        <li><input type="checkbox" id="bulalo-corn"><label for="bulalo-corn"> 2 corn cobs, cut into pieces</label></li>
+                        <li><input type="checkbox" id="bulalo-potato"><label for="bulalo-potato"> 2 potatoes, quartered</label></li>
+                        <li><input type="checkbox" id="bulalo-cabbage"><label for="bulalo-cabbage"> 1/2 cabbage, cut into wedges</label></li>
+                        <li><input type="checkbox" id="bulalo-pechay"><label for="bulalo-pechay"> 1 bunch pechay (optional)</label></li>
+                    </ul>
+                </td>
+                <td>
+                    <h4>Equipment</h4>
+                    <ul>
+                        <li><input type="checkbox" id="bulalo-pot"><label for="bulalo-pot"> Large stock pot</label></li>
+                        <li><input type="checkbox" id="bulalo-ladle"><label for="bulalo-ladle"> Ladle</label></li>
+                        <li><input type="checkbox" id="bulalo-strainer"><label for="bulalo-strainer"> Strainer for scum</label></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+        <div class="instruction-panel">
+            <h3>How to Cook</h3>
+            <ol>
+                <li><b>Boil the Beef:</b>
+                    <p>In a large pot, combine beef shanks and water. Bring to a boil and skim off scum for a clear broth.</p>
+                </li>
+                <li><b>Simmer:</b>
+                    <p>Add onion and peppercorns, then simmer on low heat for 2 to 3 hours until beef is fork-tender.</p>
+                </li>
+                <li><b>Add Vegetables:</b>
+                    <p>Add corn and potatoes, then cook until tender. Add cabbage and pechay last so they stay crisp and bright.</p>
+                </li>
+                <li><b>Season and Serve:</b>
+                    <p>Season with fish sauce and serve hot with rice.</p>
+                </li>
+            </ol>
+        </div>
+
+        <hr>
+
+        <div class="video-section">
+            <h2>Video Tutorial</h2>
+            <p>Watch this step-by-step video guide on how to prepare Bulalo:</p>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/JiDfrHphNSg?si=5J-XGZDdG1felRth" title="Bulalo Recipe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">&uarr;</button>
+    <script src="search.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const slider = document.getElementById('slider');
+            const dots = document.querySelectorAll('#dots span');
+
+            slider.addEventListener('scroll', () => {
+                const scrollPosition = slider.scrollLeft;
+                const width = slider.clientWidth;
+
+                const index = Math.round(scrollPosition / width);
+
+                dots.forEach(dot => dot.classList.remove('active'));
+                if (dots[index]) {
+                    dots[index].classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dish-template.css">
+    <title>Halo-Halo</title>
+</head>
+<body>
+    <div class="nav">
+        <img src="images/logo.png" alt="PINASSARAP Logo">
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search dishes...">
+            <button id="searchBtn">Search</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="category-bar">
+        <a href="sweets.html">Sweets</a>
+        <a href="savory.html">Savory</a>
+        <a href="soup.html">Soup</a>
+        <a href="snacks.html">Snacks</a>
+    </div>
+
+    <ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sweets.html">Sweets</a></li>
+        <li>Halo-Halo</li>
+    </ul>
+
+        <div class="dishpix">
+    <div class="dishpix-slider" id="slider">
+        <img src="https://t4.ftcdn.net/jpg/17/50/79/17/360_F_1750791799_PMYDhlJAwD85yUd2feSvOefalWVFUA27.jpg" alt="Halo-Halo">
+        <img src="https://assets.bonappetit.com/photos/60e46c6701084801b06de2a3/16:9/w_2190,h_1232,c_limit/Halo-Halo-Recipe-2021.jpg" alt="Suman Malagkit">
+        <img src="https://www.thespruceeats.com/thmb/bqq_P7YZtu4Br9kPHqVkjib1QhQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/halo-halo-5409582-step-08-18bca395e05542539cf4eb2e87fd6882.jpg" alt="Suman Malagkit">
+    </div>
+    
+    <div class="dots" id="dots">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+    <hr>
+
+    <section id="halohalo">
+        <div class="section-header">
+            <h1>Halo-Halo</h1>
+            <div class="sticky-button-container">
+                <a href="#recipe">
+                    <button class="jump-button">Jump to Recipe</button>
+                </a>
+            </div>
+        </div>
+
+        <p>Halo-Halo, which is widely associated with Luzon, is a famous Filipino shaved ice dessert whose name means mixed-mix. It combines many sweet ingredients in one colorful and refreshing glass.</p>
+        <p>Popular mix-ins include sweetened saba bananas, jackfruit, beans, nata de coco, gulaman, and leche flan. Crushed ice and evaporated milk tie everything together.</p>
+        <p>It is often topped with ube halaya and ice cream, making it one of the most iconic treats for hot weather in the Philippines.</p>
+    </section>
+
+    <hr>
+
+    <div id="recipe">
+        <h2>Recipe</h2>
+        <h3>Ingredients</h3>
+        <table>
+            <tr>
+                <td>
+                    <h4>Base Mix-ins</h4>
+                    <ul>
+                        <li><input type="checkbox" id="hh-saba"><label for="hh-saba"> Sweetened saba bananas</label></li>
+                        <li><input type="checkbox" id="hh-jackfruit"><label for="hh-jackfruit"> Sweetened jackfruit strips</label></li>
+                        <li><input type="checkbox" id="hh-beans"><label for="hh-beans"> Sweet red beans or garbanzos</label></li>
+                        <li><input type="checkbox" id="hh-nata"><label for="hh-nata"> Nata de coco</label></li>
+                        <li><input type="checkbox" id="hh-gulaman"><label for="hh-gulaman"> Gulaman cubes</label></li>
+                    </ul>
+                </td>
+                <td>
+                    <h4>Toppings</h4>
+                    <ul>
+                        <li><input type="checkbox" id="hh-ice"><label for="hh-ice"> Crushed ice</label></li>
+                        <li><input type="checkbox" id="hh-milk"><label for="hh-milk"> Evaporated milk</label></li>
+                        <li><input type="checkbox" id="hh-ube"><label for="hh-ube"> Ube halaya</label></li>
+                        <li><input type="checkbox" id="hh-leche"><label for="hh-leche"> Leche flan slices</label></li>
+                        <li><input type="checkbox" id="hh-icecream"><label for="hh-icecream"> Ube or vanilla ice cream</label></li>
+                    </ul>
+                </td>
+                <td>
+                    <h4>Equipment</h4>
+                    <ul>
+                        <li><input type="checkbox" id="hh-glass"><label for="hh-glass"> Tall serving glass</label></li>
+                        <li><input type="checkbox" id="hh-spoon"><label for="hh-spoon"> Long spoon</label></li>
+                        <li><input type="checkbox" id="hh-shaver"><label for="hh-shaver"> Ice crusher or shaver</label></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+        <div class="instruction-panel">
+            <h3>How to Cook</h3>
+            <ol>
+                <li><b>Layer the Mix-ins:</b>
+                    <p>Place your chosen sweetened ingredients at the bottom of a tall glass.</p>
+                </li>
+                <li><b>Add Ice and Milk:</b>
+                    <p>Fill the glass with crushed ice, then pour evaporated milk over the top.</p>
+                </li>
+                <li><b>Top It:</b>
+                    <p>Add ube halaya, leche flan, and a scoop of ice cream.</p>
+                </li>
+                <li><b>Serve:</b>
+                    <p>Serve immediately and mix well before eating to combine all flavors and textures.</p>
+                </li>
+            </ol>
+        </div>
+
+        <hr>
+
+        <div class="video-section">
+            <h2>Video Tutorial</h2>
+            <p>Watch this step-by-step video guide on how to prepare Halo-Halo:</p>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Lsixn-QjWGk?si=7zMg1emuqqQou_xB" title="Halo-Halo Recipe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">&uarr;</button>
+    <script src="search.js"></script>
+
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const slider = document.getElementById('slider');
+            const dots = document.querySelectorAll('#dots span');
+
+            slider.addEventListener('scroll', () => {
+                const scrollPosition = slider.scrollLeft;
+                const width = slider.clientWidth;
+
+                const index = Math.round(scrollPosition / width);
+
+                dots.forEach(dot => dot.classList.remove('active'));
+                if (dots[index]) {
+                    dots[index].classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+

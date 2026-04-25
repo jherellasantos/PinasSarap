@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dish-template.css">
+    <title>Turon</title>
+</head>
+<body>
+    <div class="nav">
+        <img src="images/logo.png" alt="PINASSARAP Logo">
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search dishes...">
+            <button id="searchBtn">Search</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="category-bar">
+        <a href="sweets.html">Sweets</a>
+        <a href="savory.html">Savory</a>
+        <a href="soup.html">Soup</a>
+        <a href="snacks.html">Snacks</a>
+    </div>
+
+    <ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="luzon.html">Luzon</a></li>
+        <li>Turon</li>
+    </ul>
+
+        <div class="dishpix">
+    <div class="dishpix-slider" id="slider">
+        <img src="https://themayakitchen.com/wp-content/uploads/2019/10/TURON.jpg" alt="turon">
+        <img src="https://media-cldnry.s-nbcnews.com/image/upload/newscms/2021_43/1794082/leah-cohen-turon-kb-main-211026.jpg" alt="Turon">
+        <img src="https://www.seriouseats.com/thmb/elzl8iopwr-WrEbCIApwmTXhB7M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20210617-turon-vicky-wasik-seriouseats-seriouseats-25-c8fab2c218bf47d484afb614e51e3376.jpg" alt="Turon">
+    </div>
+    
+    <div class="dots" id="dots">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+    <hr>
+
+    <section id="turon">
+        <div class="section-header">
+            <h1>Turon</h1>
+            <div class="sticky-button-container">
+                <a href="#recipe">
+                    <button class="jump-button">Jump to Recipe</button>
+                </a>
+            </div>
+        </div>
+
+        <p>Turon, which is widely associated with Luzon street-food culture, is a sweet fried snack made with ripe saba bananas wrapped in thin lumpia wrappers.</p>
+        <p>Many versions add ripe langka (jackfruit) for extra aroma and flavor. When fried with sugar, the wrapper caramelizes into a crisp golden shell.</p>
+        <p>It is a popular merienda sold in homes, markets, and roadside stalls, usually served warm and crunchy.</p>
+    </section>
+
+    <hr>
+
+    <div id="recipe">
+        <h2>Recipe</h2>
+        <h3>Ingredients</h3>
+        <table>
+            <tr>
+                <td>
+                    <h4>Main</h4>
+                    <ul>
+                        <li><input type="checkbox" id="turon-saba"><label for="turon-saba"> 6 ripe saba bananas, halved lengthwise</label></li>
+                        <li><input type="checkbox" id="turon-jackfruit"><label for="turon-jackfruit"> 1/2 cup ripe jackfruit strips (optional)</label></li>
+                        <li><input type="checkbox" id="turon-wrapper"><label for="turon-wrapper"> 12 lumpia wrappers</label></li>
+                        <li><input type="checkbox" id="turon-sugar"><label for="turon-sugar"> 1/2 cup brown sugar</label></li>
+                        <li><input type="checkbox" id="turon-oil"><label for="turon-oil"> Cooking oil for frying</label></li>
+                    </ul>
+                </td>
+                <td>
+                    <h4>Optional Add-ons</h4>
+                    <ul>
+                        <li><input type="checkbox" id="turon-langka-extra"><label for="turon-langka-extra"> Extra jackfruit for topping</label></li>
+                        <li><input type="checkbox" id="turon-caramel"><label for="turon-caramel"> Caramel drizzle</label></li>
+                        <li><input type="checkbox" id="turon-icecream"><label for="turon-icecream"> Vanilla ice cream (for serving)</label></li>
+                    </ul>
+                </td>
+                <td>
+                    <h4>Equipment</h4>
+                    <ul>
+                        <li><input type="checkbox" id="turon-pan"><label for="turon-pan"> Frying pan</label></li>
+                        <li><input type="checkbox" id="turon-tongs"><label for="turon-tongs"> Tongs</label></li>
+                        <li><input type="checkbox" id="turon-rack"><label for="turon-rack"> Cooling rack or paper towels</label></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+        <div class="instruction-panel">
+            <h3>How to Cook</h3>
+            <ol>
+                <li><b>Prepare Filling:</b>
+                    <p>Roll each saba banana half in brown sugar and place jackfruit strips on top if using.</p>
+                </li>
+                <li><b>Wrap:</b>
+                    <p>Place banana on a lumpia wrapper, fold both sides inward, and roll tightly. Seal edge with water.</p>
+                </li>
+                <li><b>Fry:</b>
+                    <p>Heat oil over medium heat and fry turon until golden brown and crisp. Sprinkle a little extra sugar in the pan for caramelized coating.</p>
+                </li>
+                <li><b>Serve:</b>
+                    <p>Drain excess oil and serve warm for best crunch.</p>
+                </li>
+            </ol>
+        </div>
+
+        <hr>
+
+        <div class="video-section">
+            <h2>Video Tutorial</h2>
+            <p>Watch this step-by-step video guide on how to prepare Turon:</p>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/4QeQ4O6WHkc?si=NG-7Egz8AVW1GIuX" title="Turon Recipe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">&uarr;</button>
+    <script src="search.js"></script>
+
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const slider = document.getElementById('slider');
+            const dots = document.querySelectorAll('#dots span');
+
+            slider.addEventListener('scroll', () => {
+                const scrollPosition = slider.scrollLeft;
+                const width = slider.clientWidth;
+
+                const index = Math.round(scrollPosition / width);
+
+                dots.forEach(dot => dot.classList.remove('active'));
+                if (dots[index]) {
+                    dots[index].classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+

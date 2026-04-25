@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dish-template.css">
+    <title>Curacha</title>
+</head>
+<body>
+    <div class="nav">
+        <img src="images/logo.png" alt="PINASSARAP Logo">
+                    <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search dishes...">
+                <button id="searchBtn">Search</button>
+            </div>
+                            <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="category-bar">
+        <a href="sweets.html">Sweets</a>
+        <a href="savory.html">Savory</a>
+        <a href="soup.html">Soup</a>
+        <a href="snacks.html">Snacks</a>
+    </div>
+
+    <ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="mindanao.html">Mindanao</a></li>
+        <li>Curacha</li>
+    </ul>
+
+    <div class="dishpix">
+    <div class="dishpix-slider" id="slider">
+        <img src="https://savorfilipino.food.blog/wp-content/uploads/2018/09/min12.jpg?w=640" alt="Curacha">
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEhiOzTm01nfzDq4-ZjR52pWkuOYEzdN1EZ3V8nQr3FbiOvEtDFYNIkbaSnhcSnU9SXDdB5CP0dVr4hl4WMRCRwfZIL_BQU0jT6JcTfXfs6ytSQLG6R_RsVa34Q8F22x3NkX1Jgq3i4f-VwKCRT06lqE597RGxHGsT9oatsgrxClqR8B_XQ0PsZBCl3q=w640-h480" alt="curacha">
+        <img src="https://certifiedrapsa.wordpress.com/wp-content/uploads/2011/12/curacha.jpg?w=300" alt="curacha">
+    </div>
+    
+    <div class="dots" id="dots">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+    <hr>
+
+    <section id="sisig">
+        <div class="section-header">
+            <h1>Curacha</h1>
+            <div class="sticky-button-container">
+                <a href="#recipe">
+                    <button class="jump-button">Jump to Recipe</button>
+                </a>
+            </div>
+        </div>
+
+        <p>Curacha is a luxurious and highly sought-after seafood delicacy native to the deep waters of Zamboanga and the Sulu Archipelago in the southern Philippines. Often described as a cross between a giant sea crab and a spiny lobster, this unique crustacean—known in English as the red frog crab or spanner crab—is famous for its vibrant, brick-red shell that boasts its brilliant color even before it hits the steaming pot. Unlike regular mud crabs, the curacha holds a massive amount of sweet, tender meat in its main body rather than its small claws. While delicious when simply steamed, it reaches legendary status when halved and generously drenched in the iconic Alavar sauce—a rich, spiced coconut milk reduction that makes it an absolute must-try for any seafood lover.</p>
+
+        <p>The curacha is deeply tied to Zamboanga City, a coastal hub in Mindanao known for its rich maritime culture and Chavacano language (a Spanish-based creole). The name "curacha" actually comes from the Chavacano and Spanish word for "cockroach." When early locals and Spanish colonizers saw these red, multi-legged creatures rapidly scuttling backward across the sand, the playful (and slightly unappetizing) nickname stuck. Despite the quirky name, it didn't take long for the locals to realize that the deep waters of the Sulu Sea were hiding a culinary goldmine. For generations, it was simply a delicious local catch. However, in the 1970s and 1980s, the Alavar Seafood Restaurant in Zamboanga City popularized serving the crab with their signature coconut-spice sauce. This elevated the humble sea creature into a nationally recognized culinary icon.</p>
+    </section>
+
+    
+    <hr>
+
+    <div id="recipe">
+        <h2>Recipe</h2>
+        <h3>Ingredients</h3>
+        <table>
+            <tr>
+                <td>
+                    <h4>Curacha</h4>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="sisig-water" name="sisig-ingredients" value="water">
+                            <label for="sisig-water">1 kilo Curacha (about 2-3 pieces), cleaned and sliced in half</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="sisig-salt" name="sisig-ingredients" value="salt">
+                            <label for="sisig-salt">1 cup water or sprite (for initial steaming)</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="sisig-vinegar" name="sisig-ingredients" value="vinegar">
+                            <label for="sisig-vinegar">1 whole head garlic, minced</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="sisig-pork" name="sisig-ingredients" value="pork">
+                            <label for="sisig-pork">1 large red onion, finely chopped</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="sisig-oil" name="sisig-ingredients" value="oil">
+                            <label for="sisig-oil">2 thumbs ginger, grated</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="sisig-chili" name="sisig-ingredients" value="chili">
+                            <label for="sisig-chili">2 stalks lemongrass (tanglad), pounded</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="sisig-onion" name="sisig-ingredients" value="onion">
+                            <label for="sisig-onion">3-5 siling labuyo (bird's eye chilies), chopped</label>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <h4>The Sauce</h4>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="sauce-oil" name="sauce-ingredients" value="oil">
+                            <label for="sauce-oil">2 cups coconut milk (gata)</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="sauce-liver" name="sauce-ingredients" value="liver">
+                            <label for="sauce-liver">1 cup coconut cream (kakang gata)</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="serve-rice" name="serve-ingredients" value="rice">
+                            <label for="serve-rice">½ cup crab paste (aligue)</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="serve-eggs" name="serve-ingredients" value="eggs">
+                            <label for="serve-eggs">1 tbsp shrimp paste (bagoong alamang)</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="serve-rice" name="serve-ingredients" value="rice">
+                            <label for="serve-rice">2 tbsp annatto (atsuete) oil</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="serve-eggs" name="serve-ingredients" value="eggs">
+                            <label for="serve-eggs">2 tbsp annatto (atsuete) oil</label>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <div class="instruction-panel">
+            <h3>How to Cook</h3>
+            <ol>
+                <li><b>Pre-cook the Curacha:</b>
+                    <p>Wash the curacha thoroughly, using a brush to clean the shells. Cut them in half lengthwise. In a large wok or pot, add the crabs and 1 cup of water (or Sprite). Cover and steam over medium-high heat for about 8-10 minutes until they turn a vibrant red and the liquid has mostly evaporated. Remove the crabs and set them aside. Discard any remaining liquid.</p>
+                </li>
+                <li><b>Sauté the Aromatics:</b>
+                    <p>In the same wok, heat the annatto (atsuete) oil over medium heat. Add the pounded lemongrass, grated ginger, minced garlic, and chopped onions. Sauté for about 3-5 minutes until the aromatics are deeply fragrant and the onions are soft and translucent.</p>
+                </li>
+                <li><b>Build the Sauce Base:</b>
+                    <p>Stir in the shrimp paste (bagoong alamang) and crab paste (aligue). Cook for another 2 minutes, stirring continuously, to release their umami flavors. Sprinkle in the turmeric powder and the chopped siling labuyo.</p>
+                </li>
+                <li><b>Simmer and Thicken:</b>
+                    <p>Pour in the coconut milk (gata). Bring the mixture to a gentle boil, then lower the heat and let it simmer for about 10-15 minutes, allowing the sauce to reduce and the flavors to meld. Once the sauce has reduced by about a third, pour in the thick coconut cream (kakang gata). Season with a pinch of salt, black pepper, and a teaspoon of brown sugar to balance the heat and savory notes.</p>
+                </li>
+                <li><b>Coat the Crabs:</b>
+                    <p>Return the halved curacha to the wok. Toss them gently in the bubbling sauce, ensuring the rich coconut mixture seeps into the exposed crab meat. Cover and let it simmer for a final 5 minutes until the sauce is thick, oily, and clings to the shells. Serve immediately with a massive platter of hot steamed rice.</p>
+                </li>
+            </ol>
+        </div>
+
+        <hr>
+
+        <div class="video-section">
+            <h2>Video Tutorial</h2>
+            <p>Watch this step-by-step video guide on how to prepare authentic Curacha:</p>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/sRLYQJbo9vw?si=8KPU6ihZ-CJ8eUkn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    
+        <button id="backToTop" class="back-to-top" aria-label="Back to top">&uarr;</button>
+    <script src="search.js"></script>
+
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const slider = document.getElementById('slider');
+            const dots = document.querySelectorAll('#dots span');
+
+            slider.addEventListener('scroll', () => {
+                const scrollPosition = slider.scrollLeft;
+                const width = slider.clientWidth;
+
+                const index = Math.round(scrollPosition / width);
+
+                dots.forEach(dot => dot.classList.remove('active'));
+                if (dots[index]) {
+                    dots[index].classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

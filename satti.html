@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dish-template.css">
+    <title>Satti</title>
+</head>
+<body>
+    <div class="nav">
+        <img src="images/logo.png" alt="PINASSARAP Logo">
+                    <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search dishes...">
+                <button id="searchBtn">Search</button>
+            </div>
+                            <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="category-bar">
+        <a href="sweets.html">Sweets</a>
+        <a href="savory.html">Savory</a>
+        <a href="soup.html">Soup</a>
+        <a href="snacks.html">Snacks</a>
+    </div>
+
+    <ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="mindanao.html">Mindanao</a></li>
+        <li>Satti</li>
+    </ul>
+
+        <div class="dishpix">
+    <div class="dishpix-slider" id="slider">
+        <img src="https://www.rappler.com/tachyon/r3-assets/D775BB9B2F914A0ABA97479E9C992056/img/CC2806040A1842F78D07F659D3C0F259/67581260_430145067585362_8445257428928299008_n.jpg" alt="Satti">
+        <img src="https://images.deliveryhero.io/image/fd-ph/LH/tm99-listing.jpg" alt="satti">
+        <img src="https://images.deliveryhero.io/image/fd-ph/LH/s3oc-listing.jpg" alt="satti">
+    </div>
+    
+    <div class="dots" id="dots">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+    <hr>
+
+    <section id="sisig">
+        <div class="section-header">
+            <h1>Satti</h1>
+            <div class="sticky-button-container">
+                <a href="#recipe">
+                    <button class="jump-button">Jump to Recipe</button>
+                </a>
+            </div>
+        </div>
+
+        <p>If you find yourself in Zamboanga City or the Sulu Archipelago at six in the morning, the ultimate local experience is waking up to a steaming, fiery bowl of Satti. Visually striking and deeply comforting, Satti consists of small, charcoal-grilled skewers of beef, chicken, or liver. But unlike standard barbecue, these skewers aren't the main event—they are simply the vessels for the sauce. Satti is served by taking the grilled meats and chunks of <em>pusô</em> (rice cooked in woven coconut leaves) and completely drowning them in a thick, vivid red-orange, sweet, and spicy gravy. It is a heavy, sweat-inducing breakfast designed to jolt your senses and fuel you for a long day ahead.</p>
+
+        <p>Satti is the Mindanaoan evolution of the classic Southeast Asian <em>satay</em> or <em>sate</em>. Centuries ago, Arab, Malay, and Indonesian spice merchants sailed through the Sulu Sea, bringing Islam and their culinary traditions to the indigenous Tausug, Sama, and Zamboangueño people. While traditional Malaysian or Indonesian satay is served on a dry platter with a modest side of peanut dipping sauce, the locals in the southern Philippines reinvented the dish to suit the Filipino love for "sauce over rice."</p>
+
+        <p>Over time, the recipe transformed. The peanut element was dialed back, and the sauce was thickened heavily with cassava or cornstarch, turning it from a dip into a hearty soup. It was also sweetened and spiked with a massive amount of local chilies and annatto for that signature crimson color. Today, Satti houses (sattihan) are cultural institutions in western Mindanao, serving as communal gathering spots where people from all walks of life share a uniquely uncolonized, indigenous morning feast.</p>
+    </section>
+
+
+    <hr>
+
+    <div id="recipe">
+        <h2>Recipe</h2>
+        <h3>Ingredients</h3>
+        <table>
+            <tr>
+                <td>
+                    <h4>The Skewers</h4>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="satti-meat" name="satti-ingredients" value="meat">
+                            <label for="satti-meat">500g beef sirloin or chicken breast, cut into very small cubes</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="satti-marinade-soysauce" name="satti-ingredients" value="marinade-soysauce">
+                            <label for="satti-marinade-soysauce">2 tbsp soy sauce</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="satti-marinade-garlic" name="satti-ingredients" value="marinade-garlic">
+                            <label for="satti-marinade-garlic">3 cloves garlic, minced</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="satti-marinade-turmeric" name="satti-ingredients" value="marinade-turmeric">
+                            <label for="satti-marinade-turmeric">1 tsp turmeric powder</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="satti-sticks" name="satti-ingredients" value="sticks">
+                            <label for="satti-sticks">Bamboo skewers (soaked in water)</label>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <h4>The Red Satti Sauce</h4>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="satti-broth" name="satti-ingredients" value="broth">
+                            <label for="satti-broth">4 cups beef or chicken broth</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="satti-atsuete" name="satti-ingredients" value="atsuete">
+                            <label for="satti-atsuete">3 tbsp annatto (atsuete) seeds, soaked in ½ cup warm water</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="satti-chili" name="satti-ingredients" value="chili">
+                            <label for="satti-chili">5-8 bird's eye chilies (siling labuyo), minced</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="satti-aromatics" name="satti-ingredients" value="aromatics">
+                            <label for="satti-aromatics">1 red onion, 4 cloves garlic, & 1 thumb ginger (all minced)</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="satti-lemongrass" name="satti-ingredients" value="lemongrass">
+                            <label for="satti-lemongrass">1 stalk lemongrass, pounded</label>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <h4>Flavor & Thickener</h4>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="satti-peanut" name="satti-ingredients" value="peanut">
+                            <label for="satti-peanut">2 tbsp smooth peanut butter</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="satti-sugar" name="satti-ingredients" value="sugar">
+                            <label for="satti-sugar">¼ cup brown sugar (adjust to taste)</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="satti-slurry" name="satti-ingredients" value="slurry">
+                            <label for="satti-slurry">½ cup cornstarch dissolved in ½ cup water</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="satti-serve" name="satti-ingredients" value="serve">
+                            <label for="satti-serve">Pusô (hanging rice) or regular steamed rice for serving</label>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <div class="instruction-panel">
+            <h3>How to Cook</h3>
+            <ol>
+                <li>
+                    <b>Prepare the Skewers:</b> 
+                    <p>In a bowl, mix the small meat cubes with the soy sauce, minced garlic, and turmeric powder. Let it marinate for at least 30 minutes. Once marinated, thread 3 to 4 pieces of meat tightly onto each soaked bamboo skewer. Grill over hot charcoal for 3-5 minutes on each side until cooked with a slight char. Set aside.</p>
+                </li>
+                <li>
+                    <b>Extract the Color:</b> 
+                    <p>Squeeze and rub the annatto (atsuete) seeds in the warm water until the water turns a deep, dark red. Strain the liquid and discard the seeds. Set the red annatto water aside.</p>
+                </li>
+                <li>
+                    <b>Sauté the Spice Base:</b> 
+                    <p>In a large pot, heat a little oil over medium heat. Sauté the minced onion, garlic, ginger, and pounded lemongrass until highly aromatic and softened. Add the minced bird's eye chilies and cook for another minute.</p>
+                </li>
+                <li>
+                    <b>Build the Broth:</b> 
+                    <p>Pour the beef or chicken broth into the pot, followed by the deep red annatto water. Bring the mixture to a rolling boil. Reduce the heat and stir in the peanut butter and brown sugar. Whisk continuously until the peanut butter dissolves completely and the broth becomes smooth. Let it simmer for 10 minutes to allow the flavors to meld. Season with a little salt if needed.</p>
+                </li>
+                <li>
+                    <b>Thicken and Serve:</b> 
+                    <p>While the broth is gently simmering, slowly pour in the cornstarch slurry while stirring continuously. Keep stirring until the sauce becomes thick, glossy, and sticky (similar to the consistency of a thick gravy or sweet and sour sauce). To serve, place chopped pieces of <i>pusô</i> (or a mound of rice) and a few grilled skewers in a deep bowl. Ladle a generous, overflowing amount of the hot, spicy red sauce directly over the meat and rice. Eat immediately!</p>
+                </li>
+            </ol>
+        </div>
+
+        <hr>
+
+        <div class="video-section">
+            <h2>Video Tutorial</h2>
+            <p>Watch this step-by-step video guide on how to prepare authentic Satti:</p>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/zVxKfNG1BNA?si=hDXaJ9a3cWBlgcTX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    
+        <button id="backToTop" class="back-to-top" aria-label="Back to top">&uarr;</button>
+    <script src="search.js"></script>
+
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const slider = document.getElementById('slider');
+            const dots = document.querySelectorAll('#dots span');
+
+            slider.addEventListener('scroll', () => {
+                const scrollPosition = slider.scrollLeft;
+                const width = slider.clientWidth;
+
+                const index = Math.round(scrollPosition / width);
+
+                dots.forEach(dot => dot.classList.remove('active'));
+                if (dots[index]) {
+                    dots[index].classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dish-template.css">
+    <title>La Paz Batchoy</title>
+</head>
+<body>
+    <div class="nav">
+        <img src="images/logo.png">
+                    <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search dishes...">
+                <button id="searchBtn">Search</button>
+            </div>
+                            <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="category-bar">
+        <a href="sweets.html">Sweets</a>
+        <a href="savory.html">Savory</a>
+        <a href="soup.html">Soup</a>
+        <a href="snacks.html">Snacks</a>
+    </div>
+
+    <ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="visayas.html">Visayas</a></li>
+        <li>La Paz Batchoy</li>
+    </ul>
+
+        <div class="dishpix">
+    <div class="dishpix-slider" id="slider">
+        <img src="https://th.bing.com/th/id/R.70b46ac7d5310fa8bdcbe978ad0f4bb7?rik=M26fjEOqynA5Zw&riu=http%3a%2f%2fangsarap.net%2fwp-content%2fuploads%2f2014%2f12%2fLa-Paz-Batchoy-Wide.jpg&ehk=h8eu0%2b8etZVs0HIb%2b7Y4%2b0BCL1IkqJlERKqvEUj9d8g%3d&risl=&pid=ImgRaw&r=0" alt="La Paz Batchoy">
+        <img src="https://images.yummy.ph/yummy/uploads/2013/02/lapaz-batchoy-1.jpg" alt="La Paz Batchoy">
+        <img src="https://assets.unileversolutions.com/recipes-v2/110752.jpg" alt="La Paz Batchoy">
+    </div>
+    
+    <div class="dots" id="dots">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+    <hr>
+
+    <section id="lapazbach">
+        <div class="section-header">
+            <h1>La Paz Batchoy</h1>
+            <div class="sticky-button-container">
+                <a href="#recipe">
+                    <button class="jump-button">Jump to Recipe</button>
+                </a>
+            </div>
+        </div>
+
+        <p>La Paz Batchoy is a noodle soup dish from Iloilo City that has become a beloved Visayan favorite. It is made with egg noodles, pork offal, shrimp, and chicken broth, creating a rich and savory flavor. The dish is typically topped with fried pork bits, chicharon, liver spread, and a raw egg that cooks in the hot broth.</p>
+
+        <p>Named after La Paz neighborhood in Iloilo, this iconic dish has been a staple since the 1930s and is often served at local shops and carenderias. The combination of tender noodles, savory broth, and crispy toppings makes Batchoy a comfort food that represents the culinary heritage of Iloilo. It is commonly enjoyed for breakfast, lunch, or even late-night meals, often accompanied by patis (fish sauce) for added flavor.</p>
+        <br>
+    </section>
+
+    <hr>
+
+    <div id="recipe">
+        <h2>Recipe</h2>
+        <h3>Ingredients</h3>
+        <table>
+            <tr>
+                <td colspan="3">
+                    <h4>Batchoy</h4>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="lpb-item1" name="ingredient" value="noodles">
+                            <label for="lpb-item1">400g fresh egg noodles</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="lpb-item2" name="ingredient" value="broth">
+                            <label for="lpb-item2">1.5 liters chicken or pork broth</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="lpb-item3" name="ingredient" value="offal">
+                            <label for="lpb-item3">200g pork offal (liver, kidney, heart), sliced</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="lpb-item4" name="ingredient" value="shrimp">
+                            <label for="lpb-item4">150g shrimp, peeled and deveined</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="lpb-item5" name="ingredient" value="chicharon">
+                            <label for="lpb-item5">1 cup chicharon (fried pork skin), crushed</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="lpb-item6" name="ingredient" value="liver-spread">
+                            <label for="lpb-item6">3 tbsp liver spread (pate)</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="lpb-item7" name="ingredient" value="garlic">
+                            <label for="lpb-item7">4 cloves garlic, minced</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="lpb-item8" name="ingredient" value="seasoning">
+                            <label for="lpb-item8">Salt and pepper to taste</label>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <h4>For Serving</h4>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="lpb-serve1" name="ingredient" value="egg">
+                            <label for="lpb-serve1">4 raw egg yolks</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="lpb-serve2" name="ingredient" value="green-onion">
+                            <label for="lpb-serve2">2 green onions, chopped</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="lpb-serve3" name="ingredient" value="patis">
+                            <label for="lpb-serve3">Fish sauce (patis)</label>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <div class="instruction-panel">
+            <h3>How to Cook</h3>
+            <ol>
+                <li><b>Prepare the offal: </b>
+                    <p>Blanch the pork offal in boiling water for 3-5 minutes, then drain and set aside. This removes any impurities.</p>
+                </li>
+            <br>
+            <li><b>Prepare the broth: </b>
+                <p>Heat the chicken or pork broth in a large pot. Add minced garlic and sauté until fragrant. Add the blanched offal and shrimp, simmer until cooked.</p>
+            </li>
+            <br>
+            <li><b>Cook the noodles: </b>
+                <p>In a separate pot, boil water and cook the egg noodles until al dente. Drain and set aside.</p>
+            </li>
+            <br>
+            <li><b>Assemble the dish: </b>
+                <p>Place cooked noodles in a bowl, pour hot broth over them. Top with chicharon, liver spread, egg yolk, and green onions. Serve immediately with fish sauce on the side.</p>
+            </li>
+        </ol>
+    </div>
+
+    <hr>
+
+    <div class="video-section">
+        <h2>Video Tutorial</h2>
+        <p>Watch this step-by-step video guide on how to prepare authentic Lapaz Bach:</p>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/RZyUBmR5rUo?si=7UndBSP5Rh0KqgyK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+    
+        <button id="backToTop" class="back-to-top" aria-label="Back to top">&uarr;</button>
+    <script src="search.js"></script>
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const slider = document.getElementById('slider');
+            const dots = document.querySelectorAll('#dots span');
+
+            slider.addEventListener('scroll', () => {
+                const scrollPosition = slider.scrollLeft;
+                const width = slider.clientWidth;
+
+                const index = Math.round(scrollPosition / width);
+
+                dots.forEach(dot => dot.classList.remove('active'));
+                if (dots[index]) {
+                    dots[index].classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

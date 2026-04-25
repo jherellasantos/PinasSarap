@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dish-template.css">
+    <title>Leche Flan</title>
+</head>
+<body>
+    <div class="nav">
+        <img src="images/logo.png" alt="PINASSARAP Logo">
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search dishes...">
+            <button id="searchBtn">Search</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="category-bar">
+        <a href="sweets.html">Sweets</a>
+        <a href="savory.html">Savory</a>
+        <a href="soup.html">Soup</a>
+        <a href="snacks.html">Snacks</a>
+    </div>
+
+    <ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sweets.html">Sweets</a></li>
+        <li>Leche Flan</li>
+    </ul>
+
+        <div class="dishpix">
+    <div class="dishpix-slider" id="slider">
+        <img src="https://images.squarespace-cdn.com/content/v1/508da03be4b0d28844ddf21c/1543918646547-KIHEFUQEC3OI9O9W1AKT/THHCInstantPotLecheFlanPHOTOFlan.jpg" alt="Leche Flan">
+        <img src="https://cdn.sanity.io/images/f3knbc2s/production/e28fbcc9b8533d867ba614f42699f7f5e76790b2-2500x1500.jpg?auto=format" alt="Suman Malagkit">
+        <img src="https://www.seriouseats.com/thmb/ylleIZRoHcfrxYtDyx_Pz7ytWiw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20210723-Leche-Flan-Rezel-17-3bdcb943a559409d9b62976818423d96.jpg" alt="Suman Malagkit">
+    </div>
+    
+    <div class="dots" id="dots">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+    <hr>
+
+    <section id="leche-flan">
+        <div class="section-header">
+            <h1>Leche Flan</h1>
+            <div class="sticky-button-container">
+                <a href="#recipe">
+                    <button class="jump-button">Jump to Recipe</button>
+                </a>
+            </div>
+        </div>
+
+        <p>Leche Flan, which is closely associated with Luzon, is a classic Filipino custard dessert known for its silky texture and rich caramel topping. It is a staple during fiestas, holidays, and family celebrations.</p>
+        <p>The dish traces influences from Spanish flan but developed into a richer local version by using more egg yolks and condensed milk. The result is dense, creamy, and deeply satisfying.</p>
+        <p>It is usually chilled and served in slices, often as a stand-alone dessert or as a topping for halo-halo.</p>
+    </section>
+
+    <hr>
+
+    <div id="recipe">
+        <h2>Recipe</h2>
+        <h3>Ingredients</h3>
+        <table>
+            <tr>
+                <td>
+                    <h4>Custard</h4>
+                    <ul>
+                        <li><input type="checkbox" id="flan-yolks"><label for="flan-yolks"> 10 egg yolks</label></li>
+                        <li><input type="checkbox" id="flan-condensed"><label for="flan-condensed"> 1 can condensed milk</label></li>
+                        <li><input type="checkbox" id="flan-evap"><label for="flan-evap"> 1 can evaporated milk</label></li>
+                        <li><input type="checkbox" id="flan-vanilla"><label for="flan-vanilla"> 1 tsp vanilla extract</label></li>
+                    </ul>
+                </td>
+                <td>
+                    <h4>Caramel</h4>
+                    <ul>
+                        <li><input type="checkbox" id="flan-sugar"><label for="flan-sugar"> 1/2 cup sugar</label></li>
+                    </ul>
+                </td>
+                <td>
+                    <h4>Equipment</h4>
+                    <ul>
+                        <li><input type="checkbox" id="flan-llanera"><label for="flan-llanera"> Llanera or round mold</label></li>
+                        <li><input type="checkbox" id="flan-steamer"><label for="flan-steamer"> Steamer</label></li>
+                        <li><input type="checkbox" id="flan-foil"><label for="flan-foil"> Aluminum foil</label></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+        <div class="instruction-panel">
+            <h3>How to Cook</h3>
+            <ol>
+                <li><b>Make the Caramel:</b>
+                    <p>Heat sugar in each mold over low heat until melted and golden. Swirl to coat the bottom evenly, then let it cool.</p>
+                </li>
+                <li><b>Mix the Custard:</b>
+                    <p>In a bowl, gently whisk egg yolks, condensed milk, evaporated milk, and vanilla until smooth. Avoid overmixing to prevent bubbles.</p>
+                </li>
+                <li><b>Steam:</b>
+                    <p>Pour the mixture into molds, cover with foil, and steam over low heat for 30 to 40 minutes or until set.</p>
+                </li>
+                <li><b>Chill and Serve:</b>
+                    <p>Cool completely, refrigerate, then unmold by running a knife around the edge and flipping onto a plate.</p>
+                </li>
+            </ol>
+        </div>
+
+        <hr>
+
+        <div class="video-section">
+            <h2>Video Tutorial</h2>
+            <p>Watch this step-by-step video guide on how to prepare Leche Flan:</p>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vN5G2iBUHO0?si=quSoWZ-sdc_owFBR" title="Leche Flan Recipe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">&uarr;</button>
+    <script src="search.js"></script>
+
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const slider = document.getElementById('slider');
+            const dots = document.querySelectorAll('#dots span');
+
+            slider.addEventListener('scroll', () => {
+                const scrollPosition = slider.scrollLeft;
+                const width = slider.clientWidth;
+
+                const index = Math.round(scrollPosition / width);
+
+                dots.forEach(dot => dot.classList.remove('active'));
+                if (dots[index]) {
+                    dots[index].classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+

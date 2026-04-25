@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dish-template.css">
+    <title>Bibingka</title>
+</head>
+<body>
+    <div class="nav">
+        <img src="images/logo.png" alt="PINASSARAP Logo">
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search dishes...">
+            <button id="searchBtn">Search</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="category-bar">
+        <a href="sweets.html">Sweets</a>
+        <a href="savory.html">Savory</a>
+        <a href="soup.html">Soup</a>
+        <a href="snacks.html">Snacks</a>
+    </div>
+
+    <ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sweets.html">Sweets</a></li>
+        <li>Bibingka</li>
+    </ul>
+
+        <div class="dishpix">
+    <div class="dishpix-slider" id="slider">
+        <img src="https://kahibalo.com/wp-content/uploads/2023/09/bibingka-cebu-delicacy-1.jpg" alt="Bibingka">
+        <img src="https://www.seriouseats.com/thmb/cXLaFRa5DV9S9wtY3oQ01QcU-Jc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Beauty_1-20ff60406a904cd7b35832eaef4ff585.jpg" alt="BIbingka">
+        <img src="https://yummykitchentv.com/wp-content/uploads/2023/11/Royal-Bibingka-recipe.jpg   " alt="Bibingka">
+    </div>
+    
+    <div class="dots" id="dots">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+    <hr>
+
+    <section id="bibingka">
+        <div class="section-header">
+            <h1>Bibingka</h1>
+            <div class="sticky-button-container">
+                <a href="#recipe">
+                    <button class="jump-button">Jump to Recipe</button>
+                </a>
+            </div>
+        </div>
+
+        <p>Bibingka, which originated in Luzon, is a traditional Filipino rice cake often associated with Christmas mornings and Simbang Gabi. It is known for its soft, fluffy center and lightly charred edges.</p>
+        <p>Classic bibingka is baked in clay pots lined with banana leaves, which gives it a subtle smoky aroma. Modern home versions are usually baked in ovens but still keep the same comforting flavor profile.</p>
+        <p>It is commonly topped with salted egg, cheese, and grated coconut, creating a sweet and savory contrast that Filipinos love.</p>
+    </section>
+
+    <hr>
+
+    <div id="recipe">
+        <h2>Recipe</h2>
+        <h3>Ingredients</h3>
+        <table>
+            <tr>
+                <td>
+                    <h4>Batter</h4>
+                    <ul>
+                        <li><input type="checkbox" id="bib-rice-flour"><label for="bib-rice-flour"> 1 cup rice flour</label></li>
+                        <li><input type="checkbox" id="bib-baking-powder"><label for="bib-baking-powder"> 2 tsp baking powder</label></li>
+                        <li><input type="checkbox" id="bib-sugar"><label for="bib-sugar"> 1/2 cup sugar</label></li>
+                        <li><input type="checkbox" id="bib-eggs"><label for="bib-eggs"> 2 eggs</label></li>
+                        <li><input type="checkbox" id="bib-coconut-milk"><label for="bib-coconut-milk"> 1 cup coconut milk</label></li>
+                        <li><input type="checkbox" id="bib-butter"><label for="bib-butter"> 1/4 cup melted butter</label></li>
+                    </ul>
+                </td>
+                <td>
+                    <h4>Toppings</h4>
+                    <ul>
+                        <li><input type="checkbox" id="bib-salted-egg"><label for="bib-salted-egg"> Sliced salted egg</label></li>
+                        <li><input type="checkbox" id="bib-cheese"><label for="bib-cheese"> Grated cheese</label></li>
+                        <li><input type="checkbox" id="bib-coconut"><label for="bib-coconut"> Grated coconut</label></li>
+                        <li><input type="checkbox" id="bib-butter-top"><label for="bib-butter-top"> Butter for brushing</label></li>
+                    </ul>
+                </td>
+                <td>
+                    <h4>Equipment</h4>
+                    <ul>
+                        <li><input type="checkbox" id="bib-pan"><label for="bib-pan"> Round baking pan</label></li>
+                        <li><input type="checkbox" id="bib-liner"><label for="bib-liner"> Banana leaf liner (optional)</label></li>
+                        <li><input type="checkbox" id="bib-oven"><label for="bib-oven"> Oven</label></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+        <div class="instruction-panel">
+            <h3>How to Cook</h3>
+            <ol>
+                <li><b>Prepare the Pan:</b>
+                    <p>Preheat oven to 375 F (190 C). Line a round pan with banana leaf if available and lightly grease.</p>
+                </li>
+                <li><b>Make the Batter:</b>
+                    <p>Whisk rice flour, baking powder, and sugar. Add eggs, coconut milk, and melted butter, then mix until smooth.</p>
+                </li>
+                <li><b>Bake:</b>
+                    <p>Pour batter into the pan and bake for about 12 minutes. Remove briefly, add salted egg and cheese, then bake again for 8 to 10 minutes.</p>
+                </li>
+                <li><b>Finish:</b>
+                    <p>Brush the top with butter and sprinkle grated coconut before serving warm.</p>
+                </li>
+            </ol>
+        </div>
+
+        <hr>
+
+        <div class="video-section">
+            <h2>Video Tutorial</h2>
+            <p>Watch this step-by-step video guide on how to prepare Bibingka:</p>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://youtu.be/JxQ_CD67XTU?si=uOXEnFVZyOdWYGV-" title="Bibingka Recipe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">&uarr;</button>
+    <script src="search.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const slider = document.getElementById('slider');
+            const dots = document.querySelectorAll('#dots span');
+
+            slider.addEventListener('scroll', () => {
+                const scrollPosition = slider.scrollLeft;
+                const width = slider.clientWidth;
+
+                const index = Math.round(scrollPosition / width);
+
+                dots.forEach(dot => dot.classList.remove('active'));
+                if (dots[index]) {
+                    dots[index].classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+

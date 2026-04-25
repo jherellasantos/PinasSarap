@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dish-template.css">
+    <title>Piaparan a Manok</title>
+</head>
+<body>
+    <div class="nav">
+        <img src="images/logo.png" alt="PINASSARAP Logo">
+                    <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search dishes...">
+                <button id="searchBtn">Search</button>
+            </div>
+                            <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="category-bar">
+        <a href="sweets.html">Sweets</a>
+        <a href="savory.html">Savory</a>
+        <a href="soup.html">Soup</a>
+        <a href="snacks.html">Snacks</a>
+    </div>
+
+    <ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="mindanao.html">Mindanao</a></li>
+        <li>Piaparan a Manok</li>
+    </ul>
+
+        <div class="dishpix">
+    <div class="dishpix-slider" id="slider">
+        <img src="https://www.nestlegoodnes.com/ph/sites/default/files/styles/1_1_768px_width/public/srh_recipes/861ab2936cb9c2c5c398a3b8e67b0b7d.jpg.webp?itok=iqOvRz-p" alt="Piaparan a Manok">
+        <img src="https://phworldexpo.tpb.gov.ph/wp-content/uploads/2025/05/piaparan-manok.png" alt="piaparan a manok">
+        <img src="https://assets.unileversolutions.com/recipes-v2/110817.jpg" alt="piaparan a manok">
+    </div>
+    
+    <div class="dots" id="dots">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+    <hr>
+
+    <section id="sisig">
+        <div class="section-header">
+            <h1>Piaparan a Manok</h1>
+            <div class="sticky-button-container">
+                <a href="#recipe">
+                    <button class="jump-button">Jump to Recipe</button>
+                </a>
+            </div>
+        </div>
+
+        <p>If you want to taste the soul of Maranao cuisine, Piaparan a Manok is an absolute masterpiece. At its core, it is a rich, coconut-based chicken stew, but it completely shatters the mold of the typical Filipino ginataan. What sets Piaparan apart is its striking golden-yellow hue, born from a generous dose of turmeric, and its incredibly complex, spicy aroma. The dish gets its name from "piapar," which refers to grated mature coconut that is heavily spiced and toasted until deeply fragrant. When folded into the simmering coconut milk broth, this toasted coconut gives the sauce a unique, hearty, and grainy texture that clings perfectly to the tender chunks of chicken. It is warm, fiercely flavorful, and an unforgettable celebration of Mindanaoan aromatics.</p>
+
+        <p>Originating from the province of Lanao del Sur, the ancestral domain of the Maranao people ("People of the Lake"), this dish is a proud testament to an uncolonized culinary heritage. Long before external influences reached the Philippines, the southern regions were actively participating in the bustling Southeast Asian spice trade. You can taste this history in the dish's heavy reliance on turmeric, chilies, and the legendary Maranao condiment known as "palapa" (a pounded mixture of native white scallions, ginger, and wild bird's eye chilies). Because of its rich ingredients and labor-intensive preparation, Piaparan a Manok is traditionally reserved for grand occasions. It is a staple at royal banquets called "pagana," Muslim weddings, and vibrant Eid celebrations, serving as a delicious symbol of Maranao hospitality and cultural pride.</p>
+    </section>
+
+
+    <hr>
+
+    <div id="recipe">
+        <h2>Recipe</h2>
+        <h3>Ingredients</h3>
+        <table>
+            <tr>
+                <td>
+                    <h4>The Chicken & Base</h4>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="piaparan-chicken" name="piaparan-ingredients" value="chicken">
+                            <label for="piaparan-chicken">1 kilo chicken (cut into serving pieces)</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="piaparan-oil" name="piaparan-ingredients" value="oil">
+                            <label for="piaparan-oil">2 tbsp cooking oil</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="piaparan-onion" name="piaparan-ingredients" value="onion">
+                            <label for="piaparan-onion">1 large red onion, minced</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="piaparan-garlic" name="piaparan-ingredients" value="garlic">
+                            <label for="piaparan-garlic">4 cloves garlic, crushed and minced</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="piaparan-ginger" name="piaparan-ingredients" value="ginger">
+                            <label for="piaparan-ginger">1 thumb-sized ginger, julienned</label>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <h4>The Maranao Flavors</h4>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="piaparan-palapa" name="piaparan-ingredients" value="palapa">
+                            <label for="piaparan-palapa">3 to 4 tbsp Palapa (Maranao scallion/chili paste)</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="piaparan-turmeric" name="piaparan-ingredients" value="turmeric">
+                            <label for="piaparan-turmeric">1 tbsp turmeric powder (kalawag)</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="piaparan-gata" name="piaparan-ingredients" value="gata">
+                            <label for="piaparan-gata">2 cups thin coconut milk (pangalawang gata)</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="piaparan-kakang-gata" name="piaparan-ingredients" value="kakang-gata">
+                            <label for="piaparan-kakang-gata">1 cup thick coconut cream (kakang gata)</label>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <h4>The Piapar (Toasted Coconut)</h4>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="piaparan-niyog" name="piaparan-ingredients" value="niyog">
+                            <label for="piaparan-niyog">1 ½ cups freshly grated mature coconut (niyog)</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="piaparan-salt" name="piaparan-ingredients" value="salt">
+                            <label for="piaparan-salt">Salt and black pepper, to taste</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="piaparan-bellpepper" name="piaparan-ingredients" value="bellpepper">
+                            <label for="piaparan-bellpepper">1 medium green bell pepper, sliced (optional)</label>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <div class="instruction-panel">
+            <h3>How to Cook</h3>
+            <ol>
+                <li>
+                    <b>Make the Piapar (Toasted Coconut):</b> 
+                    <p>In a dry pan over medium-low heat, add the grated mature coconut (niyog), 1 tablespoon of palapa, and a pinch of turmeric powder. Toss and toast continuously for about 8 to 10 minutes until the coconut turns a beautiful golden-yellow and releases a nutty, spicy aroma. Remove from the pan and set aside.</p>
+                </li>
+                <li>
+                    <b>Sauté the Aromatics:</b> 
+                    <p>In a large heavy-bottomed pot, heat the cooking oil over medium heat. Add the minced garlic, onions, and ginger. Sauté until the onions soften. Stir in the remaining 2 to 3 tablespoons of palapa and the turmeric powder. Cook for another 2 minutes to release the essential oils of the spices.</p>
+                </li>
+                <li>
+                    <b>Sear the Chicken:</b> 
+                    <p>Add the chicken pieces to the pot. Stir well to ensure every piece of chicken is coated in the vibrant yellow spice mixture. Let the chicken sear and brown slightly for about 5 minutes.</p>
+                </li>
+                <li>
+                    <b>Simmer in Coconut Milk:</b> 
+                    <p>Pour in the thin coconut milk (pangalawang gata). Bring the mixture to a gentle boil, then lower the heat, cover the pot, and let it simmer for 20 to 25 minutes, or until the chicken is tender and cooked through.</p>
+                </li>
+                <li>
+                    <b>Bring it all together:</b> 
+                    <p>Once the chicken is tender, pour in the thick coconut cream (kakang gata) and fold in your prepared toasted coconut (piapar). Toss in the sliced green bell peppers. Let the stew simmer uncovered for another 5 to 7 minutes, allowing the sauce to thicken into a rich, hearty gravy. Season with salt and pepper to taste. Serve hot with a massive mound of steamed rice!</p>
+                </li>
+            </ol>
+        </div>
+
+        <hr>
+
+        <div class="video-section">
+            <h2>Video Tutorial</h2>
+            <p>Watch this step-by-step video guide on how to prepare authentic Piaparan a Manok:</p>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/DtUh2P_7dxQ?si=yv6i7hmpfgrHgPOY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    
+        <button id="backToTop" class="back-to-top" aria-label="Back to top">&uarr;</button>
+    <script src="search.js"></script>
+
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const slider = document.getElementById('slider');
+            const dots = document.querySelectorAll('#dots span');
+
+            slider.addEventListener('scroll', () => {
+                const scrollPosition = slider.scrollLeft;
+                const width = slider.clientWidth;
+
+                const index = Math.round(scrollPosition / width);
+
+                dots.forEach(dot => dot.classList.remove('active'));
+                if (dots[index]) {
+                    dots[index].classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

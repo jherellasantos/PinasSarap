@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dish-template.css">
+    <title>Tinola</title>
+</head>
+<body>
+    <div class="nav">
+        <img src="images/logo.png" alt="PINASSARAP Logo">
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search dishes...">
+            <button id="searchBtn">Search</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="category-bar">
+        <a href="sweets.html">Sweets</a>
+        <a href="savory.html">Savory</a>
+        <a href="soup.html">Soup</a>
+        <a href="snacks.html">Snacks</a>
+    </div>
+
+    <ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="soup.html">Soup</a></li>
+        <li>Tinola</li>
+    </ul>
+
+    <div class="dishpix">
+        <img src="https://www.kawalingpinoy.com/wp-content/uploads/2015/12/tinolang-manok-3.jpg" alt="Tinola">
+    </div>
+
+    <hr>
+
+    <section id="tinola">
+        <div class="section-header">
+            <h1>Tinola</h1>
+            <div class="sticky-button-container">
+                <a href="#recipe">
+                    <button class="jump-button">Jump to Recipe</button>
+                </a>
+            </div>
+        </div>
+
+        <p>Tinola is a traditional Filipino chicken soup made fragrant with ginger, garlic, and onions. It is a light but flavorful dish often cooked at home for everyday meals.</p>
+        <p>The soup usually includes green papaya or chayote and chili leaves or malunggay, giving it a fresh and nutritious character. Its clear broth makes it soothing and easy to pair with rice.</p>
+        <p>Because of its warm and gentle flavor, tinola is often served when someone is feeling under the weather or when families want a simple comforting meal.</p>
+    </section>
+
+    <hr>
+
+    <div id="recipe">
+        <h2>Recipe</h2>
+        <h3>Ingredients</h3>
+        <table>
+            <tr>
+                <td>
+                    <h4>Main</h4>
+                    <ul>
+                        <li><input type="checkbox" id="tinola-chicken"><label for="tinola-chicken"> 1 kg chicken, cut into serving pieces</label></li>
+                        <li><input type="checkbox" id="tinola-water"><label for="tinola-water"> 6 cups water or chicken broth</label></li>
+                        <li><input type="checkbox" id="tinola-onion"><label for="tinola-onion"> 1 onion, sliced</label></li>
+                        <li><input type="checkbox" id="tinola-garlic"><label for="tinola-garlic"> 4 cloves garlic, minced</label></li>
+                        <li><input type="checkbox" id="tinola-ginger"><label for="tinola-ginger"> 1 thumb-size ginger, sliced</label></li>
+                    </ul>
+                </td>
+                <td>
+                    <h4>Vegetables</h4>
+                    <ul>
+                        <li><input type="checkbox" id="tinola-papaya"><label for="tinola-papaya"> 1 green papaya or chayote, sliced</label></li>
+                        <li><input type="checkbox" id="tinola-leaves"><label for="tinola-leaves"> 1 bunch chili leaves or malunggay</label></li>
+                    </ul>
+                </td>
+                <td>
+                    <h4>Seasoning</h4>
+                    <ul>
+                        <li><input type="checkbox" id="tinola-fishsauce"><label for="tinola-fishsauce"> 2 tbsp fish sauce</label></li>
+                        <li><input type="checkbox" id="tinola-pepper"><label for="tinola-pepper"> Ground pepper, to taste</label></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+        <div class="instruction-panel">
+            <h3>How to Cook</h3>
+            <ol>
+                <li><b>Saute Aromatics:</b>
+                    <p>Heat a little oil in a pot, then saute garlic, onion, and ginger until fragrant.</p>
+                </li>
+                <li><b>Cook Chicken:</b>
+                    <p>Add chicken pieces and cook until lightly browned. Stir in fish sauce and cook for another minute.</p>
+                </li>
+                <li><b>Simmer:</b>
+                    <p>Pour in water or broth, bring to a boil, then lower heat and simmer until chicken is tender.</p>
+                </li>
+                <li><b>Add Vegetables:</b>
+                    <p>Add papaya or chayote and cook until tender. Add chili leaves or malunggay last and cook briefly.</p>
+                </li>
+                <li><b>Serve:</b>
+                    <p>Season with pepper, then serve hot with steamed rice.</p>
+                </li>
+            </ol>
+        </div>
+
+        <hr>
+
+        <div class="video-section">
+            <h2>Video Tutorial</h2>
+            <p>Watch this step-by-step video guide on how to prepare Tinola:</p>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/WAwsYef5PGA" title="Tinola Recipe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">&uarr;</button>
+    <script src="search.js"></script>
+</body>
+</html>
+
+
+
+

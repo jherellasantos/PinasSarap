@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dish-template.css">
+    <title>Binakol</title>
+</head>
+<body>
+    <div class="nav">
+        <img src="images/logo.png">
+                    <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search dishes...">
+                <button id="searchBtn">Search</button>
+            </div>
+                            <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="category-bar">
+        <a href="sweets.html">Sweets</a>
+        <a href="savory.html">Savory</a>
+        <a href="soup.html">Soup</a>
+        <a href="snacks.html">Snacks</a>
+    </div>
+
+    <ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="visayas.html">Visayas</a></li>
+        <li>Binakol</li>
+    </ul>
+
+    <div class="dishpix">
+    <div class="dishpix-slider" id="slider">
+        <img src="https://eatlikepinoy.com/wp-content/uploads/2020/01/binakol1.jpg" alt="Binakol">
+        <img src="https://www.angsarap.net/wp-content/uploads/2012/01/chicken-binakol.jpg" alt="Binakol">
+        <img src="https://www.ajinomoto.com.ph/ajinomoto-static/web/wp-content/uploads/2018/12/chicken-binakol.jpg" alt="Binakol">
+    </div>
+    
+    <div class="dots" id="dots">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+    <hr>
+
+    <section id="binakol">
+        <div class="section-header">
+            <h1>Binakol</h1>
+            <div class="sticky-button-container">
+                <a href="#recipe">
+                    <button class="jump-button">Jump to Recipe</button>
+                </a>
+            </div>
+        </div>
+
+        <p>Binakol is a Filipino chicken soup cooked with coconut water, ginger, lemongrass, and vegetables. It comes from the Visayas and is known for its light yet flavorful broth and aromatic finish.</p>
+
+        <p>Traditionally prepared in bamboo tubes, binakol captures the rich sweetness of coconut water while keeping the dish warm and comforting. It is often enjoyed on rainy days and family gatherings.</p>
+        <br>
+    </section>
+
+    <hr>
+
+    <div id="recipe">
+        <h2>Recipe</h2>
+        <h3>Ingredients</h3>
+        <table>
+            <tr>
+                <td colspan="3">
+                    <h4>Binakol</h4>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="bi-item1" name="ingredient" value="chicken">
+                            <label for="bi-item1">1 whole chicken, cut into serving pieces</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="bi-item2" name="ingredient" value="coconut-water">
+                            <label for="bi-item2">4 cups coconut water</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="bi-item3" name="ingredient" value="coconut-milk">
+                            <label for="bi-item3">1 cup coconut milk</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="bi-item4" name="ingredient" value="ginger">
+                            <label for="bi-item4">2 tbsp ginger, sliced</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="bi-item5" name="ingredient" value="lemongrass">
+                            <label for="bi-item5">2 stalks lemongrass, bruised</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="bi-item6" name="ingredient" value="vegetables">
+                            <label for="bi-item6">1 cup green papaya or chayote, sliced</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="bi-item7" name="ingredient" value="green-onion">
+                            <label for="bi-item7">2 green onions, chopped</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="bi-item8" name="ingredient" value="fish-sauce">
+                            <label for="bi-item8">2 tbsp fish sauce</label>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <div class="instruction-panel">
+            <h3>How to Cook</h3>
+            <ol>
+                <li><b>Sauté aromatics: </b>
+                    <p>In a pot, sauté ginger and lemongrass until fragrant. Add chicken pieces and brown lightly.</p>
+                </li>
+            <br>
+            <li><b>Add liquids: </b>
+                <p>Pour in coconut water and fish sauce. Bring to a boil, then reduce heat and simmer until the chicken is tender.</p>
+            </li>
+            <br>
+            <li><b>Add vegetables: </b>
+                <p>Add sliced green papaya or chayote and cook until crisp-tender. Stir in coconut milk near the end.</p>
+            </li>
+            <br>
+            <li><b>Finish and serve: </b>
+                <p>Sprinkle chopped green onions over the soup. Serve hot with steamed rice.</p>
+            </li>
+        </ol>
+    </div>
+
+    <hr>
+
+    <div class="video-section">
+        <h2>Video Tutorial</h2>
+        <p>Watch this step-by-step video guide on how to prepare authentic Binakol:</p>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/u8Wgesp7jtk?si=d0cH3_dEiv636wsf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+    
+        <button id="backToTop" class="back-to-top" aria-label="Back to top">&uarr;</button>
+    <script src="search.js"></script>
+
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const slider = document.getElementById('slider');
+            const dots = document.querySelectorAll('#dots span');
+
+            slider.addEventListener('scroll', () => {
+                const scrollPosition = slider.scrollLeft;
+                const width = slider.clientWidth;
+
+                const index = Math.round(scrollPosition / width);
+
+                dots.forEach(dot => dot.classList.remove('active'));
+                if (dots[index]) {
+                    dots[index].classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

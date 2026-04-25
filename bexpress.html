@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dish-template.css">
+    <title>Bicol Express</title>
+</head>
+<body>
+    <div class="nav">
+        <img src="images/logo.png" alt="PINASSARAP Logo">
+                    <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search dishes...">
+                <button id="searchBtn">Search</button>
+            </div>
+                            <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="category-bar">
+        <a href="sweets.html">Sweets</a>
+        <a href="savory.html">Savory</a>
+        <a href="soup.html">Soup</a>
+        <a href="snacks.html">Snacks</a>
+    </div>
+
+    <ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="luzon.html">Luzon</a></li>
+        <li>Bicol Express</li>
+    </ul>
+
+        <div class="dishpix">
+    <div class="dishpix-slider" id="slider">
+        <img src="https://panlasangpinoy.com/wp-content/uploads/2021/04/Bicol-Express-1.jpg" alt="Bicol Express">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgkWh1jiDvOOKEWfYMP0MetK7k3vPL9Rw9x9HcBXlAzaAGjMklIno7xovQCu6FIUgmI3XY3p791k2-HtYSZSdB3yEvHxttYFpJELFzUso&s=10" alt="Bicol Express">
+        <img src="https://cdn.sanity.io/images/f3knbc2s/production/e887bb0dd06b826347175f97b0f4782f9a6a6d75-3000x1800.jpg?auto=format" alt="Bicol Express">
+    </div>
+    
+    <div class="dots" id="dots">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+    <hr>
+
+    <section id="bexpress">
+        <div class="section-header">
+            <h1>Bicol Express</h1>
+            <div class="sticky-button-container">
+                <a href="#recipe">
+                    <button class="jump-button">Jump to Recipe</button>
+                </a>
+            </div>
+        </div>
+
+        <p>Although Bicol Express is closely associated with the Bicol region, it is widely believed to have been created in Manila by restaurateur Cely Kalaw in the 1960s. She developed the dish while experimenting with a milder, creamier version of laing, a traditional Bicolano dish. The name “Bicol Express” was inspired by the train route connecting Manila to Bicol, which she reportedly heard while thinking of a name. Despite this, many Bicolanos argue that the dish was inspired by their local recipe called ginataang sili (or gulay na lada), which uses similar ingredients such as coconut milk, pork, and shrimp paste. This suggests that while the name and popular version came from Manila, its roots are strongly influenced by Bicolano cuisine.</p>
+
+    </section>
+
+    <hr>
+
+    <div id="recipe">
+        <h2>Recipe</h2>
+        <h3>Ingredients</h3>
+        <table>
+            <tr>
+                <td>
+                    <h4>Bicol Express</h4>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="be-pork" name="be-ingredients" value="pork">
+                            <label for="be-pork">2 lbs. pork belly sliced into strips</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="be-coconut-milk" name="be-ingredients" value="coconut-milk">
+                            <label for="be-coconut-milk">2 cups coconut milk</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="be-coconut-cream" name="be-ingredients" value="coconut-cream">
+                            <label for="be-coconut-cream">2 cups coconut cream
+
+</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="be-shrimp-paste" name="be-ingredients" value="shrimp-paste">
+                            <label for="be-shrimp-paste">1/4 cup shrimp paste or salted Krill
+</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="be-garlic" name="be-ingredients" value="garlic">
+                            <label for="be-garlic">5 cloves garlic crushed
+</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="be-chili" name="be-ingredients" value="chili">
+                            <label for="be-chili"> 5 pieces Thai chili pepper chopped
+</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="be-ginger" name="be-ingredients" value="ginger">
+                            <label for="be-ginger"> 2 thumbs ginger minced
+
+</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="be-onion" name="be-ingredients" value="onion">
+                            <label for="be-onion">1 piece onion chopped
+
+</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="be-serrano" name="be-ingredients" value="serrano">
+                            <label for="be-serrano">2 pieces Serrano pepper sliced
+
+</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="be-water" name="be-ingredients" value="water">
+                            <label for="be-water">1 cup water optional
+
+</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="be-maggi" name="be-ingredients" value="maggi">
+                            <label for="be-maggi">8 grams Maggi Magic Sarap
+
+</label>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <div class="instruction-panel">
+            <h3>How to Cook</h3>
+            <ol>
+                <li>
+                    <p>Combine pork, ginger, garlic, onion, Thai chili pepper, long green pepper, and bagoong alamang, coconut milk in a pan. Mix well. Cover the pan and turn the heat to on. Let the mixture boil.
+</p>
+                 <li> <p>2 lbs. pork belly, 2 cups coconut milk, 1/4 cup shrimp paste, 5 cloves garlic, 5 pieces Thai chili pepper, 2 thumbs ginger, 1 piece onion, 2 pieces Serrano pepper
+</p></li>   
+                   
+                <li><p>Stir and adjust the heat to low. Cover and simmer for 50 minutes. Note: add water as necessary
+
+</p></li>    
+                    
+                <li><p>Add the remaining coconut cream and bagoong alamang (as needed). Season with Maggi Magic Sarap. Continue cooking in low heat until the sauce thickens</p></li>   
+                    </li>
+
+                
+                <li>
+                    <p>2 cups coconut cream, 8 grams Maggi Magic Sarap
+</p>
+<li><p>Transfer to a serving plate and serve with warm rice.
+</p></li>
+                    
+                    
+            </ol>
+        </div>
+        <hr>
+
+    <div class="video-section">
+        <h2>Video Tutorial</h2>
+        <p>Watch this step-by-step video guide on how to prepare authentic Bexpress:</p>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/u6kAgfGVl28?si=gGbMn4nrSx7THvHR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+    </div>
+
+    
+        <button id="backToTop" class="back-to-top" aria-label="Back to top">&uarr;</button>
+    <script src="search.js"></script>
+
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const slider = document.getElementById('slider');
+            const dots = document.querySelectorAll('#dots span');
+
+            slider.addEventListener('scroll', () => {
+                const scrollPosition = slider.scrollLeft;
+                const width = slider.clientWidth;
+
+                const index = Math.round(scrollPosition / width);
+
+                dots.forEach(dot => dot.classList.remove('active'));
+                if (dots[index]) {
+                    dots[index].classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

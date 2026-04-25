@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dish-template.css">
+    <title>Inasal</title>
+</head>
+<body>
+    <div class="nav">
+        <img src="images/logo.png">
+                    <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search dishes...">
+                <button id="searchBtn">Search</button>
+            </div>
+                            <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="category-bar">
+        <a href="sweets.html">Sweets</a>
+        <a href="savory.html">Savory</a>
+        <a href="soup.html">Soup</a>
+        <a href="snacks.html">Snacks</a>
+    </div>
+
+    <ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="visayas.html">Visayas</a></li>
+        <li>Inasal</li>
+    </ul>
+
+        <div class="dishpix">
+    <div class="dishpix-slider" id="slider">
+        <img src="https://th.bing.com/th/id/R.5edb4ea5e2cb18081d27cd59d15220e1?rik=wLu96kjQtMLgmA&riu=http%3a%2f%2fonestophalal.com%2fcdn%2fshop%2farticles%2fchicken_inasal_recipe_800x.jpg%3fv%3d1745696930&ehk=LMppnvS0TY5q7jKIc70LPZlUSTsfJjtlYUsNSAbRI6Q%3d&risl=&pid=ImgRaw&r=0" alt="Chicken Inasal">
+        <img src="https://images.yummy.ph/yummy/uploads/2013/09/04-2013_yummy-ph_recipe_image_sari-jorges-chicken-inasal_main-1.jpg" alt="Chicken Inasal">
+        <img src="https://asianinspirations.com.au/wp-content/uploads/2022/07/R02993-Chicken-Inasal-(Filipino-style-Grilled-Chicken).jpg" alt="Chicken Inasal">
+    </div>
+    
+    <div class="dots" id="dots">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+    <hr>
+
+    <section id="inasal">
+        <div class="section-header">
+            <h1>Inasal</h1>
+            <div class="sticky-button-container">
+                <a href="#recipe">
+                    <button class="jump-button">Jump to Recipe</button>
+                </a>
+            </div>
+        </div>
+
+        <p>Chicken Inasal is a Visayan grilled chicken dish marinated in achuete, calamansi, garlic, ginger, and lemongrass. It is especially linked to Bacolod and is celebrated for its smoky aroma and bright, tangy glaze.</p>
+
+        <p>The name "inasal" means "to grill" in Filipino, and the dish is traditionally served with garlic rice and a dipping sauce of vinegar, soy, and chili. Its distinctive marinade makes it one of the most beloved grilled specialties from the Visayas.</p>
+        <br>
+    </section>
+
+    <hr>
+
+    <div id="recipe">
+        <h2>Recipe</h2>
+        <h3>Ingredients</h3>
+        <table>
+            <tr>
+                <td colspan="3">
+                    <h4>Inasal</h4>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="in-item1" name="ingredient" value="chicken">
+                            <label for="in-item1">1 kg chicken thighs or quarters</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="in-item2" name="ingredient" value="calamansi">
+                            <label for="in-item2">1/2 cup calamansi juice</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="in-item3" name="ingredient" value="garlic">
+                            <label for="in-item3">6 cloves garlic, minced</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="in-item4" name="ingredient" value="ginger">
+                            <label for="in-item4">1 thumb ginger, grated</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="in-item5" name="ingredient" value="annatto">
+                            <label for="in-item5">2 tbsp annatto oil</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="in-item6" name="ingredient" value="soy-sauce">
+                            <label for="in-item6">2 tbsp soy sauce</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="in-item7" name="ingredient" value="brown-sugar">
+                            <label for="in-item7">1 tbsp brown sugar</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="in-item8" name="ingredient" value="lemongrass">
+                            <label for="in-item8">2 stalks lemongrass, bruised</label>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <div class="instruction-panel">
+            <h3>How to Cook</h3>
+            <ol>
+                <li><b>Make the marinade: </b>
+                    <p>Mix calamansi juice, minced garlic, grated ginger, annatto oil, soy sauce, brown sugar, and salt in a bowl.</p>
+                </li>
+            <br>
+            <li><b>Marinate the chicken: </b>
+                <p>Place the chicken pieces in a shallow dish. Add the marinade and lemongrass. Turn to coat and refrigerate for at least 2 hours or overnight.</p>
+            </li>
+            <br>
+            <li><b>Grill the chicken: </b>
+                <p>Preheat the grill to medium-high. Grill the chicken skin-side down first, brushing with reserved marinade until cooked through and slightly charred.</p>
+            </li>
+            <br>
+            <li><b>Serve warm: </b>
+                <p>Enjoy with steamed rice, pickled vegetables, and extra calamansi for squeezing.</p>
+            </li>
+        </ol>
+    </div>
+
+    <hr>
+
+    <div class="video-section">
+        <h2>Video Tutorial</h2>
+        <p>Watch this step-by-step video guide on how to prepare authentic Inasal:</p>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/AC8Uogkzk7I?si=s6U68KEcFrlnnZQb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+    
+        <button id="backToTop" class="back-to-top" aria-label="Back to top">&uarr;</button>
+    <script src="search.js"></script>
+
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const slider = document.getElementById('slider');
+            const dots = document.querySelectorAll('#dots span');
+
+            slider.addEventListener('scroll', () => {
+                const scrollPosition = slider.scrollLeft;
+                const width = slider.clientWidth;
+
+                const index = Math.round(scrollPosition / width);
+
+                dots.forEach(dot => dot.classList.remove('active'));
+                if (dots[index]) {
+                    dots[index].classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
